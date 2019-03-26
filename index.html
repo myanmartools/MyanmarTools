@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US" dir="ltr">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -312,7 +313,65 @@
             margin-right: 8px;
         }
     </style>
+
+    <style>
+        .project-item-card {
+            position: relative;
+            display: block;
+        }
+
+        .project-item-card+.project-item-card {
+            margin-top: 48px;
+        }
+
+        .project-item-card h2 {
+            font-weight: 600;
+            font-size: 16px;
+            padding: 0;
+            margin: 16px 0;
+        }
+
+        .project-item+.project-item {
+            margin-top: 24px;
+        }
+
+
+        .project-title h3 {
+            font-weight: 600;
+            font-size: 14px;
+            padding: 0;
+            margin: 0 0 8px 0;
+        }
+
+        .project-title a {
+            color: #107c10;
+        }
+
+        .project-title a:focus,
+        .project-title a:hover {
+            text-decoration: underline;
+        }
+
+        .project-desc {
+            font-size: 11px;
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136936085-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-136936085-1');
+    </script>
+
 </head>
+
 <body>
     <header class="home-page-header" role="banner">
         <div class="container">
@@ -333,6 +392,41 @@
             <div class="site-about">
                 A collection of useful open source projects for Myanmar specific applications, libraries and tools
                 super-powered by DagonMetric.
+            </div>
+            <div class="project-item-card">
+                <h2>Applications</h2>
+                <div class="project-item">
+                    <div class="project-title">
+                        <h3><a href="https://zawgyi-unicode-converter.myanmartools.com">Zawgyi Unicode Converter</a>
+                        </h3>
+                    </div>
+                    <div class="project-desc">
+                        Online / offline Zawgyi-One to Unicode or Unicode to Zawgyi-One converter
+                    </div>
+                </div>
+            </div>
+            <div class="project-item-card">
+                <h2>Library Projects</h2>
+                <div class="project-item">
+                    <div class="project-title">
+                        <h3><a href="https://github.com/myanmartools/ng-translit">ng-translit</a>
+                        </h3>
+                    </div>
+                    <div class="project-desc">
+                        Contains transliteration libraries for Angular applications which can be used in font encoding
+                        converters such as Zawgyi-One to Myanmar Unicode converter.
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-title">
+                        <h3><a
+                                href="https://github.com/myanmartools/ng-zawgyi-unicode-detector">ng-zawgyi-unicode-detector</a>
+                        </h3>
+                    </div>
+                    <div class="project-desc">
+                        Zawgyi / Myanmar Unicode Detector Package for Angular Application
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -357,4 +451,5 @@
         </div>
     </footer>
 </body>
+
 </html>
