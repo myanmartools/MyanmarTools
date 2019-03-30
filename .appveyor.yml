@@ -1,0 +1,20 @@
+branches:
+  only:
+    - master
+clone_depth: 1
+environment:
+  nodejs_version: "10"
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - set PATH=%APPDATA%\npm;%PATH%
+  - ps: |
+  - npm i -g firebase-tools
+test: "off"
+cache:
+  - '%APPDATA%\npm-cache'
+deploy_script:
+  - ps: |
+      if ($env:firebase_token)
+      {
+        iex "firebase deploy --token $env:firebase_token"
+      }
