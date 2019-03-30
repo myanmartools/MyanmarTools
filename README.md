@@ -1,4 +1,6 @@
-# Myanmar Tools
+[![Build status](https://ci.appveyor.com/api/projects/status/369t8u1drtsbvbyg?svg=true)](https://ci.appveyor.com/project/admindagonmetriccom/myanmartools)
+
+# Myanmar Tools Home
 
 [![Gitter](https://badges.gitter.im/myanmartools/community.svg)](https://gitter.im/myanmartools/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
