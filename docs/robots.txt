@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://myanmartools.com/sitemap.xml
+Sitemap: https://myanmartools.org/sitemap.xml
