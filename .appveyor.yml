@@ -9,6 +9,7 @@ install:
   - set PATH=%APPDATA%\npm;%PATH%
   - ps: |
   - npm i -g firebase-tools
+build: "off"
 test: "off"
 cache:
   - '%APPDATA%\npm-cache'
