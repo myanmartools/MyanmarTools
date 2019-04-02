@@ -1,10 +1,12 @@
 {
-  "hosting": {
+  "hosting": [{
+    "target": "myanmartools",
     "public": "docs",
+    "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
-  }
+  }]
 }
