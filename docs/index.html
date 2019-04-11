@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Myanmar Tools - Tools for Myanmar Languages and Scripts</title>
+    <title>Myanmar Tools - Software Tools & Utilities for Myanmar Languages and Scripts</title>
     <meta name="description"
-        content="A collection of useful open source projects for Myanmar specific applications, libraries, language & script tools super-powered by DagonMetric.">
-    <meta name="keywords" content="myanmar tools,myanmar languages,myanmar scripts,dagonmetric">
+        content="A collection of useful open source projects for Myanmar specific software applications, libraries, language and script tools, productivity tools and utilities.">
+    <meta name="keywords"
+        content="myanmar productivity tools,myanmar tools,myanmar utilities,myanmar languages,myanmar scripts">
     <meta name="author" content="DagonMetric">
     <link rel="canonical" href="https://myanmartools.org/">
     <meta name="format-detection" content="telephone=no">
@@ -27,14 +28,6 @@
     <!-- Windows Tiles -->
     <meta name="application-name" content="Myanmar Tools">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-square70x70logo"
-        content="assets/images/appicons/v1/windows/Square71x71Logo.scale-100.png">
-    <meta name="msapplication-square150x150logo"
-        content="assets/images/appicons/v1/windows/Square150x150Logo.scale-100.png">
-    <meta name="msapplication-wide310x150logo"
-        content="assets/images/appicons/v1/windows/Wide310x150Logo.scale-100.png">
-    <meta name="msapplication-square310x310logo"
-        content="assets/images/appicons/v1/windows/Square310x310Logo.scale-100.png">
 
     <!-- Android / Chrome -->
     <link rel="icon" type="image/png" sizes="192x192"
@@ -56,18 +49,18 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@myanmartools">
     <meta name="twitter:creator" content="@DagonMetric">
-    <meta name="twitter:title" content="Myanmar Tools - Home">
+    <meta name="twitter:title" content="Software Tools & Utilities for Myanmar Languages and Scripts">
     <meta name="twitter:description"
-        content="A collection of useful open source projects for Myanmar specific applications, libraries, language & script tools.">
+        content="A collection of useful open source projects for Myanmar specific software applications, libraries, language and script tools, productivity tools and utilities.">
     <meta name="twitter:image" content="https://myanmartools.org/assets/images/appicons/v1/og-image-square.png">
 
     <!-- Open Graph data -->
     <meta content="en_US" property="og:locale">
     <meta content="https://myanmartools.org/" property="og:url">
-    <meta content="Entities in Myanmar" property="og:site_name">
-    <meta content="Myanmar Tools - Home" property="og:title">
+    <meta content="Myanmar Tools" property="og:site_name">
+    <meta content="Software Tools & Utilities for Myanmar Languages and Scripts" property="og:title">
     <meta
-        content="A collection of useful open source projects for Myanmar specific applications, libraries, language & script tools."
+        content="A collection of useful open source projects for Myanmar specific software applications, libraries, language and script tools, productivity tools and utilities."
         property="og:description">
     <meta content="569110090263850" property="fb:app_id">
     <meta content="website" property="og:type">
@@ -184,14 +177,18 @@
             align-items: center;
             justify-content: center;
             width: 100%;
-            height: 100px;
-            min-height: 100px;
+
+            height: 120px;
+            min-height: 120px;
+
             overflow: hidden;
 
             -webkit-user-select: none;
             -moz-user-select: none;
             -ms-user-select: none;
             user-select: none;
+
+            animation: header-animation 1.2s ease-in 0.1s forwards;
         }
 
         .banner-container {
@@ -200,7 +197,8 @@
             flex-direction: row;
             align-items: center;
             text-align: left;
-            height: 100px;
+
+            /* height: 120px; */
         }
 
         .banner-container>*:not(:last-child) {
@@ -210,12 +208,10 @@
         .home-page-header .site-logo {
             box-sizing: border-box;
             position: relative;
-            border-radius: 50%;
-            border-style: solid;
-            border-width: 0;
-            width: 42px;
-            height: 42px;
-            min-width: 42px;
+
+            /* width: 112px;
+            height: 112px;
+            line-height: 112px; */
         }
 
         .home-page-header .site-logo-link {
@@ -226,10 +222,12 @@
         .home-page-header .site-logo-img {
             box-sizing: border-box;
             display: inline-block;
-            border-radius: 50%;
-            width: 42px;
-            height: 42px;
-            line-height: 42px;
+
+            width: 112px;
+            height: 112px;
+            line-height: 112px;
+
+            animation: brand-logo-animation 1.2s ease-in .1s forwards;
         }
 
         .home-page-header .site-name,
@@ -257,8 +255,8 @@
         .home-page-footer {
             position: relative;
             width: 100%;
-            padding-top: 24px;
-            padding-bottom: 24px;
+            padding-top: 48px;
+            padding-bottom: 48px;
             color: rgba(0, 0, 0, .87);
         }
 
@@ -311,6 +309,21 @@
         .home-page-footer .footer-nav>*:not(:last-child) {
             margin-right: 8px;
         }
+
+        @keyframes header-animation {
+            100% {
+                height: 100px;
+                min-height: 100px;
+            }
+        }
+
+        @keyframes brand-logo-animation {
+            100% {
+                width: 46px;
+                height: 46px;
+                line-height: 46px;
+            }
+        }
     </style>
 
     <style>
@@ -320,7 +333,7 @@
         }
 
         .project-item-card+.project-item-card {
-            margin-top: 48px;
+            margin-top: 24px;
         }
 
         .project-item-card h2 {
@@ -371,45 +384,79 @@
 </head>
 
 <body>
+    <h1
+        style="position:absolute !important;overflow:hidden !important;clip:rect(1px, 1px, 1px, 1px) !important;width:1px !important;height:1px !important;border:0 !important;padding:0 !important; margin: 0 !important;">
+        Myanmar Tools - Software Tools & Utilities for Myanmar Languages and Scripts</h1>
     <header class="home-page-header" role="banner">
         <div class="container">
             <div class="banner-container">
                 <div class="site-logo">
                     <a href="https://myanmartools.org" class="site-logo-link" aria-label="Myanmar Tools">
                         <img src="https://myanmartools.org/assets/images/appicons/v1/myanmartools-logo.png"
-                            alt="Myanmar Tools" class="site-logo-img" role="presentation" aria-hidden="true" width="800"
-                            height="800">
+                            alt="Myanmar Tools - Software Tools & Utilities for Myanmar Languages and Scripts"
+                            class="site-logo-img" role="presentation" aria-hidden="true" width="800" height="800">
                     </a>
                 </div>
-                <h1 class="site-name" role="presentation">Myanmar Tools</h1>
+                <span class="site-name" role="presentation">Myanmar Tools</span>
             </div>
         </div>
     </header>
     <main>
         <div class="container">
             <div class="site-about">
-                A collection of useful open source projects for Myanmar specific applications, libraries, language &
-                script tools super-powered by DagonMetric.
+                A collection of useful open source projects for Myanmar specific software applications, libraries,
+                language and script tools, productivity tools and utilities super-powered by DagonMetric.
             </div>
             <div class="project-item-card">
-                <h2>Applications</h2>
+                <h2>Myanmar Tools Applications</h2>
                 <div class="project-item">
                     <div class="project-title">
                         <h3><a href="https://zawgyi-unicode-converter.myanmartools.org">Zawgyi Unicode Converter</a>
                         </h3>
+                        <a class="github-button"
+                            href="https://github.com/myanmartools/zawgyi-unicode-converter-angular-pwa"
+                            data-icon="octicon-star"
+                            aria-label="Star myanmartools/zawgyi-unicode-converter-angular-pwa on GitHub">Star</a>
+                        <a class="github-button"
+                            href="https://github.com/myanmartools/zawgyi-unicode-converter-angular-pwa/subscription"
+                            data-icon="octicon-eye"
+                            aria-label="Watch myanmartools/zawgyi-unicode-converter-angular-pwa on GitHub">Watch</a>
                     </div>
                     <div class="project-desc">
                         Zawgyi-One / Unicode font encoding converter powered by modern technologies - Angular, Material
                         Design, PWA, etc.
                     </div>
                 </div>
+                <div class="project-item">
+                    <div class="project-title">
+                        <h3><a href="https://unicode-code-points-text-converter.myanmartools.org">Unicode Converter -
+                                Convert between Code Points and Text</a>
+                        </h3>
+                        <a class="github-button"
+                            href="https://github.com/myanmartools/unicode-code-points-text-converter-angular-pwa"
+                            data-icon="octicon-star"
+                            aria-label="Star myanmartools/unicode-code-points-text-converter-angular-pwa on GitHub">Star</a>
+                        <a class="github-button"
+                            href="https://github.com/myanmartools/unicode-code-points-text-converter-angular-pwa/subscription"
+                            data-icon="octicon-eye"
+                            aria-label="Watch myanmartools/unicode-code-points-text-converter-angular-pwa on GitHub">Watch</a>
+                    </div>
+                    <div class="project-desc">
+                        Unicode converter for converting UTF-32/UTF-16/UTF-8 code point sequences to text and vice
+                        versa.
+                    </div>
+                </div>
             </div>
             <div class="project-item-card">
-                <h2>Library Projects</h2>
+                <h2>Myanmar Tools Library Projects</h2>
                 <div class="project-item">
                     <div class="project-title">
                         <h3><a href="https://github.com/myanmartools/ng-translit">ng-translit</a>
                         </h3>
+                        <a class="github-button" href="https://github.com/myanmartools/ng-translit"
+                            data-icon="octicon-star" aria-label="Star myanmartools/ng-translit on GitHub">Star</a>
+                        <a class="github-button" href="https://github.com/myanmartools/ng-translit/subscription"
+                            data-icon="octicon-eye" aria-label="Watch myanmartools/ng-translit GitHub">Watch</a>
                     </div>
                     <div class="project-desc">
                         Zawgyi / Unicode transliteration modules for Angular.
@@ -419,6 +466,12 @@
                     <div class="project-title">
                         <h3><a href="https://github.com/myanmartools/ng-zawgyi-detector">ng-zawgyi-detector</a>
                         </h3>
+                        <a class="github-button" href="https://github.com/myanmartools/ng-zawgyi-detector"
+                            data-icon="octicon-star"
+                            aria-label="Star myanmartools/ng-zawgyi-detector on GitHub">Star</a>
+                        <a class="github-button" href="https://github.com/myanmartools/ng-zawgyi-detector/subscription"
+                            data-icon="octicon-eye"
+                            aria-label="Watch myanmartools/ng-zawgyi-detector on GitHub">Watch</a>
                     </div>
                     <div class="project-desc">
                         Zawgyi / Unicode detector for Angular.
@@ -431,7 +484,15 @@
         <div class="container">
             <div class="page-footer-inner-container">
                 <div class="social-links">
-                    <span>Follow us</span>
+                    <span>Follow us</span> <a class="social-link-item" href="https://github.com/myanmartools"
+                        target="_blank" title="Follow @myanmartools on GitHub" rel="noopener">
+                        <mat-icon class="mat-icon" role="img" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg"
+                                role="img" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                                width="100%" height="100%" fit="">
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                            </svg></mat-icon>
+                    </a>
                     <a class="social-link-item" href="https://twitter.com/myanmartools" target="_blank"
                         title="Follow this page on Twitter" rel="noopener">
                         <mat-icon class="mat-icon" role="img" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg"
@@ -441,12 +502,35 @@
                                     d="M 23.954 4.569 c -0.885 0.389 -1.83 0.654 -2.825 0.775 c 1.014 -0.611 1.794 -1.574 2.163 -2.723 c -0.951 0.555 -2.005 0.959 -3.127 1.184 c -0.896 -0.959 -2.173 -1.559 -3.591 -1.559 c -2.717 0 -4.92 2.203 -4.92 4.917 c 0 0.39 0.045 0.765 0.127 1.124 C 7.691 8.094 4.066 6.13 1.64 3.161 c -0.427 0.722 -0.666 1.561 -0.666 2.475 c 0 1.71 0.87 3.213 2.188 4.096 c -0.807 -0.026 -1.566 -0.248 -2.228 -0.616 v 0.061 c 0 2.385 1.693 4.374 3.946 4.827 c -0.413 0.111 -0.849 0.171 -1.296 0.171 c -0.314 0 -0.615 -0.03 -0.916 -0.086 c 0.631 1.953 2.445 3.377 4.604 3.417 c -1.68 1.319 -3.809 2.105 -6.102 2.105 c -0.39 0 -0.779 -0.023 -1.17 -0.067 c 2.189 1.394 4.768 2.209 7.557 2.209 c 9.054 0 13.999 -7.496 13.999 -13.986 c 0 -0.209 0 -0.42 -0.015 -0.63 c 0.961 -0.689 1.8 -1.56 2.46 -2.548 l -0.047 -0.02 Z" />
                             </svg></mat-icon>
                     </a>
+                    <a class="social-link-item" href="https://www.facebook.com/DagonMetric" target="_blank"
+                        title="Follow this page on Facebook" rel="noopener">
+                        <mat-icon class="mat-icon" role="img" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg"
+                                role="img" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                                width="100%" height="100%" fit="">
+                                <path
+                                    d="M 22.676 0 H 1.324 C 0.593 0 0 0.593 0 1.324 v 21.352 C 0 23.408 0.593 24 1.324 24 h 11.494 v -9.294 H 9.689 v -3.621 h 3.129 V 8.41 c 0 -3.099 1.894 -4.785 4.659 -4.785 c 1.325 0 2.464 0.097 2.796 0.141 v 3.24 h -1.921 c -1.5 0 -1.792 0.721 -1.792 1.771 v 2.311 h 3.584 l -0.465 3.63 H 16.56 V 24 h 6.115 c 0.733 0 1.325 -0.592 1.325 -1.324 V 1.324 C 24 0.593 23.408 0 22.676 0" />
+                            </svg></mat-icon>
+                    </a>
+                    <a class="social-link-item" href="https://www.linkedin.com/company/dagonmetric" target="_blank"
+                        title="Follow this page on LinkedIn" rel="noopener">
+                        <mat-icon class="mat-icon" role="img" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg"
+                                role="img" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                                width="100%" height="100%" fit="">
+                                <path
+                                    d="M 20.447 20.452 h -3.554 v -5.569 c 0 -1.328 -0.027 -3.037 -1.852 -3.037 c -1.853 0 -2.136 1.445 -2.136 2.939 v 5.667 H 9.351 V 9 h 3.414 v 1.561 h 0.046 c 0.477 -0.9 1.637 -1.85 3.37 -1.85 c 3.601 0 4.267 2.37 4.267 5.455 v 6.286 Z M 5.337 7.433 c -1.144 0 -2.063 -0.926 -2.063 -2.065 c 0 -1.138 0.92 -2.063 2.063 -2.063 c 1.14 0 2.064 0.925 2.064 2.063 c 0 1.139 -0.925 2.065 -2.064 2.065 Z m 1.782 13.019 H 3.555 V 9 h 3.564 v 11.452 Z M 22.225 0 H 1.771 C 0.792 0 0 0.774 0 1.729 v 20.542 C 0 23.227 0.792 24 1.771 24 h 20.451 C 23.2 24 24 23.227 24 22.271 V 1.729 C 24 0.774 23.2 0 22.222 0 h 0.003 Z" />
+                            </svg></mat-icon>
+                    </a>
                 </div>
                 <div class="footer-nav">
+                    <span><a href="https://privacy.dagonmetric.com/privacy-statement" target="_blank"
+                            rel="noopener">Privacy
+                            & cookies</a></span><span>|</span><span>© <span>2019</span> <span>DagonMetric</span></span>
                 </div>
             </div>
         </div>
     </footer>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 
 </html>
