@@ -4,7 +4,7 @@
 
 [![Gitter](https://badges.gitter.im/myanmartools/community.svg)](https://gitter.im/myanmartools/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-A collection of useful open source projects for Myanmar specific software applications, libraries, language and script tools, productivity tools and utilities.
+A collection of open source projects for Myanmar specific software applications, libraries, language and script tools, Unicode tools, productivity tools and utilities.
 
 ## Myanmar Tools Website
 
