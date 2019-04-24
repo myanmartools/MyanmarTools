@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/369t8u1drtsbvbyg?svg=true)](https://ci.appveyor.com/project/admindagonmetriccom/myanmartools)
+[![Build status](https://ci.appveyor.com/api/projects/status/2sy0wyr2pkeu4jsg?svg=true)](https://ci.appveyor.com/project/admindagonmetriccom/myanmar-tools)
 
 # Myanmar Tools - Website Repo
 
@@ -6,7 +6,7 @@
 
 This is the repository for [myanmartools.org](https://myanmartools.org) website.
 
-[![Myanmar Tools Website](https://myanmartools.org/assets/images/appicons/v1/ios/ios-appicon-180x180.png)](https://myanmartools.org)
+[![Myanmar Tools Website](https://myanmartools.org/assets/images/appicons/v1/android/android-launchericon-192x192.png)](https://myanmartools.org)
 
 # Popular Projects
 
