@@ -12,7 +12,7 @@ This is the repository for [myanmartools.org](https://myanmartools.org) website.
 
 - [Zawgyi Unicode Converter](https://github.com/myanmartools/zawgyi-unicode-converter-angular-pwa) - Angular Progress Web Application (PWA) designed to auto detect & convert Myanmar font encodings between Zawgyi-One and Unicode.
 
-- [Unicode Code Point Text Converter](https://github.com/myanmartools/unicode-code-points-text-converter-angular-pwa) - Angular Progress Web Application (PWA) for converting UTF-32/UTF-16/UTF-8 code point sequences to text and vice versa.
+- [Unicode Code Points Text Converter](https://github.com/myanmartools/unicode-code-points-text-converter-angular-pwa) - Angular Progress Web Application (PWA) for converting UTF-32/UTF-16/UTF-8 code point sequences to text and vice versa.
 
 - [myanmartools/ng-translit](https://github.com/myanmartools/ng-translit) - Font encoding transliteration libraries for Angular (Zawgyi <> Unicode font encoding convert libraries).
 
