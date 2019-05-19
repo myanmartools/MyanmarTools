@@ -9,7 +9,7 @@
     <meta name="description"
         content="Open source projects for Myanmar specific software applications, libraries, utilities, language, script, Unicode and font tools by DagonMetric MyanmarTools.">
     <meta name="keywords"
-        content="myanmar tools,myanmartools,myanmar open source,myanmar softwares,myanmar languages,myanmar scripts,myanmar Unicode,myanmar font tools,dagonmetric">
+        content="myanmar tools,myanmartools,open source,myanmar software,myanmar language,myanmar script,myanmar Unicode,myanmar font tools,dagonmetric">
     <meta name="author" content="DagonMetric">
     <link rel="canonical" href="https://myanmartools.org/">
     <meta name="format-detection" content="telephone=no">
@@ -37,25 +37,22 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://myanmartools.org/assets/images/appicons/v1/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://myanmartools.org/ssets/images/appicons/v1/favicon-16x16.png">
 
-    <link rel="shortcut icon" type="image/x-icon" href="https://myanmartools.org/assets/images/appicons/v1/favicon.ico">
-    <link rel="icon" type="image/x-icon" href="https://myanmartools.org/assets/images/appicons/v1/favicon.ico">
-
     <!-- Twitter card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@myanmartools">
     <meta name="twitter:creator" content="@DagonMetric">
-    <meta name="twitter:title" content="Software Tools & Utilities for Myanmar Languages and Scripts">
+    <meta name="twitter:title" content="Open Source Tools for Myanmar Language, Script and Unicode">
     <meta name="twitter:description"
-        content="A collection of useful open source projects for Myanmar specific software applications, libraries, language and script tools, productivity tools and utilities.">
+        content="Open source projects for Myanmar specific software applications, libraries, utilities, language, script, Unicode and font tools.">
     <meta name="twitter:image" content="https://myanmartools.org/assets/images/appicons/v1/og-image-square.png">
 
     <!-- Open Graph data -->
     <meta content="en_US" property="og:locale">
     <meta content="https://myanmartools.org/" property="og:url">
     <meta content="Myanmar Tools" property="og:site_name">
-    <meta content="Software Tools & Utilities for Myanmar Languages and Scripts" property="og:title">
+    <meta content="Open Source Tools for Myanmar Language, Script and Unicode" property="og:title">
     <meta
-        content="A collection of useful open source projects for Myanmar specific software applications, libraries, language and script tools, productivity tools and utilities."
+        content="Open source projects for Myanmar specific software applications, libraries, utilities, language, script, Unicode and font tools."
         property="og:description">
     <meta content="569110090263850" property="fb:app_id">
     <meta content="website" property="og:type">
@@ -149,7 +146,7 @@
             -webkit-tap-highlight-color: transparent;
             -ms-touch-action: manipulation;
             touch-action: manipulation;
-            color: inherit;
+            color: #107c10;
             text-decoration: none;
         }
 
@@ -211,7 +208,7 @@
 
         .home-page-header .site-logo-link {
             display: inline-flex;
-            color: inherit;
+            color: #107c10;
         }
 
         .home-page-header .site-logo-img {
@@ -245,8 +242,28 @@
             -moz-user-select: none;
             -ms-user-select: none;
             user-select: none;
+
+            color: #107c10;
         }
 
+
+        @keyframes header-animation {
+            100% {
+                height: 100px;
+                min-height: 100px;
+            }
+        }
+
+        @keyframes brand-logo-animation {
+            100% {
+                width: 46px;
+                height: 46px;
+                line-height: 46px;
+            }
+        }
+    </style>
+
+    <style>
         .home-page-footer {
             position: relative;
             width: 100%;
@@ -301,23 +318,12 @@
             margin-top: 24px;
         }
 
+        .home-page-footer .footer-nav a {
+            color: inherit;
+        }
+
         .home-page-footer .footer-nav>*:not(:last-child) {
             margin-right: 8px;
-        }
-
-        @keyframes header-animation {
-            100% {
-                height: 100px;
-                min-height: 100px;
-            }
-        }
-
-        @keyframes brand-logo-animation {
-            100% {
-                width: 46px;
-                height: 46px;
-                line-height: 46px;
-            }
         }
     </style>
 
@@ -332,7 +338,7 @@
         }
 
         .project-item-card h2 {
-            font-weight: 600;
+            font-weight: 500;
             font-size: 16px;
             padding: 0;
             margin: 16px 0;
@@ -344,7 +350,7 @@
 
 
         .project-title h3 {
-            font-weight: 600;
+            font-weight: 500;
             font-size: 14px;
             padding: 0;
             margin: 0 0 8px 0;
@@ -410,7 +416,7 @@
                 <div class="site-logo">
                     <a href="https://myanmartools.org" class="site-logo-link" aria-label="Myanmar Tools">
                         <img src="https://myanmartools.org/assets/images/appicons/v1/myanmartools-logo.png"
-                            alt="Myanmar Tools - Software Tools & Utilities for Myanmar Languages and Scripts"
+                            alt="Myanmar Tools"
                             class="site-logo-img" role="presentation" aria-hidden="true" width="800" height="800">
                     </a>
                 </div>
