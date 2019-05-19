@@ -1,7 +1,7 @@
 {
   "name": "Myanmar Tools",
   "short_name": "Myanmar Tools",
-  "description": "Open source projects for Myanmar specific software applications, libraries, productivity utilities, language, script and Unicode tools",
+  "description": "Open source projects for Myanmar specific software applications, libraries, utilities, language, script, Unicode and font tools.",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
