@@ -9,11 +9,11 @@ This is the repository for [myanmartools.org](https://myanmartools.org) website.
 
 # Popular Projects
 
-- [Zawgyi Unicode Converter](https://github.com/myanmartools/zawgyi-unicode-converter-angular-pwa) - Angular Progress Web Application (PWA) designed to auto detect & convert Myanmar font encodings between Zawgyi-One and Unicode.
+- [Zawgyi Unicode Converter](https://github.com/myanmartools/zawgyi-unicode-converter-angular-pwa) - Angular Progress Web Application (PWA) designed to auto detect & convert Myanmar font encoding between Zawgyi-One and Unicode
 
-- [Unicode Code Points Lookup](https://github.com/myanmartools/unicode-code-points-lookup-angular-pwa) - Angular Progress Web Application (PWA) for converting UTF-32/UTF-16/UTF-8 code point sequences to text and vice versa.
+- [Unicode Code Points Lookup](https://github.com/myanmartools/unicode-code-points-lookup-angular-pwa) - Angular Progress Web Application (PWA) for converting UTF-32/UTF-16/UTF-8 code point sequences to text and vice versa
 
-- [myanmartools/ng-zawgyi-detector](https://github.com/myanmartools/ng-zawgyi-detector) - Zawgyi-One / Myanmar Unicode font encoding detection libraries for Angular.
+- [myanmartools/ng-zawgyi-detector](https://github.com/myanmartools/ng-zawgyi-detector) - Zawgyi-One / Myanmar Unicode font encoding detection libraries for Angular
 
 ## Feedback and Contributing
 
