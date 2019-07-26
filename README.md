@@ -1,7 +1,6 @@
+# Myanmar Tools Website Repo
+
 [![Build status](https://ci.appveyor.com/api/projects/status/2sy0wyr2pkeu4jsg?svg=true)](https://ci.appveyor.com/project/admindagonmetriccom/myanmar-tools)
-
-# Myanmar Tools - Website Repo
-
 [![Gitter](https://badges.gitter.im/myanmartools/community.svg)](https://gitter.im/myanmartools/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 This is the repository for [myanmartools.org](https://myanmartools.org) website.
