@@ -5,12 +5,7 @@
       "public": "docs",
       "cleanUrls": true,
       "appAssociation": "AUTO",
-      "rewrites": [
-        {
-          "source": "/**",
-          "dynamicLinks": true
-        }
-      ],
+      "rewrites": [ { "source": "links/**", "dynamicLinks": true } ],
       "ignore": [
         "firebase.json",
         "**/.*",
