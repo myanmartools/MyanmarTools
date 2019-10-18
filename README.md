@@ -1,5 +1,6 @@
-# Myanmar Tools Website Repo
+# Myanmar Tools
 
+[![Action Status](https://github.com/myanmartools/Myanmar-Tools/workflows/Deploy/badge.svg)](https://github.com/myanmartools/Myanmar-Tools/actions)
 [![Gitter](https://badges.gitter.im/myanmartools/community.svg)](https://gitter.im/myanmartools/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 This is the repository for [myanmartools.org](https://myanmartools.org) website.
