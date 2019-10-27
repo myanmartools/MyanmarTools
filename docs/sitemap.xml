@@ -3,12 +3,6 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://myanmartools.org/</loc>
-    <lastmod>2019-10-20T14:13:24+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://myanmartools.org/apps/zawgyi-unicode-converter</loc>
-  </url>
-  <url>
-    <loc>https://myanmartools.org/apps/unicode-code-points-lookup</loc>
+    <lastmod>2019-10-27T04:40:00+00:00</lastmod>
   </url>
 </urlset>
