@@ -77,3 +77,18 @@ $light-theme: mat-light-theme($primary, $accent);
 
 @include angular-material-theme($light-theme);
 @include app-theme($light-theme);
+
+// Font assets
+// ------------------------------------------------------------
+
+@font-face {
+    font-family: 'Noto Sans Myanmar UI';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Noto Sans Myanmar UI'), local('NotoSansMyanmarUI'), url(assets/fonts/notosansmyanmarui/NotoSansMyanmarUI-Regular.eot);
+    src: url(assets/fonts/notosansmyanmarui/NotoSansMyanmarUI-Regular.eot?#iefix) format('embedded-opentype'),
+        url(assets/fonts/notosansmyanmarui/NotoSansMyanmarUI-Regular.woff2) format('woff2'),
+        url(assets/fonts/notosansmyanmarui/NotoSansMyanmarUI-Regular.woff) format('woff'),
+        url(assets/fonts/notosansmyanmarui/NotoSansMyanmarUI-Regular.ttf) format('truetype');
+}
