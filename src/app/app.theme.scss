@@ -19,6 +19,10 @@
         background: mat-color($background, background); // #f1f1f1
     }
 
+    .my-uni {
+        font-family: "Noto Sans Myanmar UI", "Myanmar Text", Pyidaungsu, Padauk, Myanmar3, sans-serif;
+    }
+
     .container {
         .features, .related-projects {
             ul {
