@@ -7,17 +7,19 @@ This is the repository for [myanmartools.org](https://myanmartools.org) website.
 
 [![Myanmar Tools Website](https://myanmartools.org/assets/images/appicons/v1/android/android-launchericon-192x192.png)](https://myanmartools.org)
 
+[https://myanmartools.org](https://myanmartools.org)
+
 ## Projects
 
-* [Zawgyi Unicode Converter Angular PWA](https://github.com/myanmartools/zawgyi-unicode-converter-angular-pwa) - Angular Progressive Web Application (PWA) designed to auto detect and convert Zawgyi-One and standard Myanmar Unicode written in Angular, Typescript, SCSS.
+* [Zawgyi Unicode Converter Web (Angular PWA)](https://github.com/myanmartools/zawgyi-unicode-converter-web)
 
-* [Zawgyi Unicode Converter Ionic Native (Android / iOS)](https://github.com/myanmartools/zawgyi-unicode-converter-native) - Ionic Native App (Android / iOS) designed to auto detect and convert Zawgyi-One and standard Myanmar Unicode written in Angular, Typescript, SCSS, Ionic, Ionic Native, Ionic UI Components.
+* [Zawgyi Unicode Converter Native (Ionic Android / iOS)](https://github.com/myanmartools/zawgyi-unicode-converter-native)
 
-* [Unicode Code Points Lookup Angular PWA](https://github.com/myanmartools/unicode-code-points-lookup-angular-pwa) - Angular Progress Web Application (PWA) for converting UTF-32/UTF-16/UTF-8 code point sequences to text and vice versa.
+* [Unicode Code Points Lookup Angular PWA](https://github.com/myanmartools/unicode-code-points-lookup-angular-pwa)
 
-* [Zawgyi and Standard Myanmar Unicode Detector for Angular](https://github.com/myanmartools/ng-zawgyi-detector) - Zawgyi-One and standard Myanmar Unicode detector library for Angular applications.
+* [Zawgyi and Standard Myanmar Unicode Detector for Angular](https://github.com/myanmartools/ng-zawgyi-detector)
 
-* [Zawgyi Unicode Transliterate Rules](https://github.com/myanmartools/zawgyi-unicode-translit-rules) - Zawgyi Unicode transliterate/convert regular expression rules in JSON and JavaScript formats.
+* [Zawgyi Unicode Transliterate Rules](https://github.com/myanmartools/zawgyi-unicode-translit-rules)
 
 ## Feedback and Contributing
 

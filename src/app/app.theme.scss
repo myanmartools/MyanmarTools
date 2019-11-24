@@ -1,0 +1,142 @@
+/**
+ * @license
+ * Copyright DagonMetric. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found under the LICENSE file in the root directory of this source tree.
+ */
+
+ // Import library functions for theme creation.
+ @import '~@angular/material/theming';
+
+@mixin app-theme($theme) {
+    $primary: map-get($theme, primary);
+    $background: map-get($theme, background);
+    $foreground: map-get($theme, foreground);
+
+    body {
+        color: mat-color($foreground, text);
+        background: mat-color($background, background); // #f1f1f1
+    }
+
+    .container {
+        .features, .related-projects {
+            ul {
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+
+                li + li {
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+
+    .site-header h1.page-title {
+        color: mat-color($primary);
+    }
+
+    a {
+        color: mat-color($primary);
+    }
+
+    .app-badge-button.mat-icon-button {
+        border-radius: 0;
+        width: 135px;
+        height: 40px;
+        line-height: 40px;
+
+        .mat-icon {
+            color: #000000 !important;
+            width: 135px;
+            height: 40px;
+            line-height: 40px;
+
+            &.mat-primary {
+                color: #000000 !important;
+              }
+
+              &.mat-accent {
+                color: #000000 !important;
+              }
+
+              &.mat-warn {
+                color: #000000 !important;
+              }
+        }
+    }
+
+    .mat-card + .mat-card {
+        margin-top: 24px;
+    }
+
+    h2.card-section-header {
+        font-size: 16px;
+        margin-top: 24px;
+        font-weight: 500;
+    }
+
+    // Site footer
+    .site-footer {
+        position: relative;
+        width: 100%;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        color: rgba(0, 0, 0, .87);
+    }
+
+    .site-footer .social-links {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        flex: 0 1 auto;
+        justify-content: left;
+        margin-bottom: 24px;
+    }
+
+    .site-footer .social-links>*:not(:last-child) {
+        margin-right: 12px;
+    }
+
+    .site-footer .social-links .social-link-item {
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        overflow: hidden;
+        color: inherit;
+        cursor: pointer;
+    }
+
+    .site-footer .social-links .social-link-item .mat-icon {
+        margin-bottom: 6px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, .67);
+        fill: rgba(0, 0, 0, .67);
+    }
+
+    .site-footer .footer-nav {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        text-align: left;
+        font-size: 11px;
+        margin-top: 24px;
+    }
+
+    .site-footer .footer-nav a {
+        color: inherit;
+    }
+
+    .site-footer .footer-nav>*:not(:last-child) {
+        margin-right: 8px;
+    }
+}

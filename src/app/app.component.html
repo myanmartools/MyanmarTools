@@ -1,0 +1,36 @@
+<header class="site-header" role="banner">
+    <div class="container">
+        <div class="banner-container">
+            <div class="site-logo">
+                <a routerLink="" class="site-logo-link"
+                    aria-label="Myanmar Tools - Myanmar Language, Script and Unicode Tools">
+                    <img src="assets/appicons/logo.png"
+                        alt="Myanmar Tools - Myanmar Language, Script and Unicode Tools" class="site-logo-img"
+                        role="presentation" aria-hidden="true" width="800" height="800">
+                </a>
+            </div>
+            <h1 class="page-title" *ngIf="!is404">{{pageTitle}}</h1>
+        </div>
+    </div>
+</header>
+<main>
+    <router-outlet></router-outlet>
+</main>
+<footer class="site-footer" *ngIf="!is404">
+    <div class="container">
+        <div class="social-links">
+            <span>Follow us</span> <a class="social-link-item" href="https://medium.com/myanmartools" target="_blank"
+                title="Follow Myanmar Tools on Medium" rel="noopener">
+                <mat-icon svgIcon="logo-medium"></mat-icon>
+            </a>
+            <a class="social-link-item" href="https://twitter.com/myanmartools" target="_blank"
+                title="Follow Myanmar Tools on Twitter" rel="noopener">
+                <mat-icon svgIcon="logo-twitter"></mat-icon>
+            </a>
+            <a class="social-link-item" href="https://www.facebook.com/DagonMetric" target="_blank"
+                title="Follow on Facebook" rel="noopener">
+                <mat-icon svgIcon="logo-facebook"></mat-icon>
+            </a>
+        </div>
+    </div>
+</footer>

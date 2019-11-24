@@ -10,7 +10,7 @@ One of the easiest ways to contribute is to participate in discussions. You can 
 
 Please follow repositories' contributing guide to contribute code and content. Here are some of the most common repositories:
 
-* [zawgyi-unicode-converter-angular-pwa](https://github.com/myanmartools/zawgyi-unicode-converter-angular-pwa)
+* [zawgyi-unicode-converter-web](https://github.com/myanmartools/zawgyi-unicode-converter-web)
 * [zawgyi-unicode-converter-native](https://github.com/myanmartools/zawgyi-unicode-converter-native)
 * [unicode-code-points-lookup-angular-pwa](https://github.com/myanmartools/unicode-code-points-lookup-angular-pwa)
 * [ng-zawgyi-detector](https://github.com/myanmartools/ng-zawgyi-detector)

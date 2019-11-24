@@ -1,0 +1,72 @@
+<div class="container">
+    <mat-card>
+        <mat-card-content>
+            <p>Open source transliteration service for Angular which can be used in swapping letters such as α
+                → a,
+                <span class="my-uni" lang="my-MM">၎</span> → <span class="my-uni" lang="my-MM">၎င်း</span> or Zawgyi-One
+                to
+                standard Myanmar Unicode.</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <a mat-button color="primary" href="https://github.com/DagonMetric/ng-translit">
+                VIEW ON GITHUB
+            </a>
+        </mat-card-actions>
+    </mat-card>
+
+    <p><b>Features</b></p>
+    <div class="features">
+        <ul>
+            <li>Can transliterate/convert any script or Unicode letters by using from a simplest rule definition (just
+                with
+                <code>from</code> and <code>to</code> rules) to more powerful rule definition (with <code>tplVar</code>,
+                <code>tplSeq</code>, <code>when</code>, <code>postRules</code>, etc.)</li>
+            <li>Can use transliteration rules in both design-time and run-time with JSON file which can be loaded lazily
+                or
+                eagerly using extendable <code>TranslitRuleLoader</code></li>
+            <li>Can transliterate input phase by phase</li>
+            <li>Can define template variables with <code>tplVar</code> to reduce JSON size and to avoid repetition</li>
+            <li>Can define template loop sequences with <code>tplSeq</code> for sequential rules checking and
+                replacement
+            </li>
+            <li>Quick test input string checking with <code>quickTests</code> and <code>minLength</code> options for
+                better
+                performance</li>
+            <li>Can check converted left portion string with <code>hasLeft</code> boolean option and <code>left</code>
+                regular
+                expression option</li>
+            <li>Can check right part after matched input string with <code>right</code> regular expression option</li>
+            <li>Conditional rules processing with <code>when</code> and <code>skip</code> options</li>
+            <li>Can define post-rules with <code>postRules</code> for step-by-step conversions</li>
+            <li>Can use <code>postRulesDef</code> and <code>postRulesRef</code> to reduce JSON size and to avoid
+                repetition
+                in
+                defining <code>postRules</code></li>
+            <li>Conversion trace information can be included in output result for debugging purpose</li>
+            <li>Work with latest versions of Angular</li>
+            <li>Compatible with Angular Universal (Server Side Rendering - SSR)</li>
+            <li>Powered with RxJS</li>
+        </ul>
+    </div>
+
+    <p><b>Related Projects</b></p>
+    <div class="related-projects">
+        <ul>
+            <li>
+                <a routerLink="../ng-zawgyi-detector">ng-zawgyi-detector</a>
+            </li>
+            <li>
+                <a routerLink="../zawgyi-unicode-translit-rules">zawgyi-unicode-translit-rules</a>
+            </li>
+            <li>
+                <a routerLink="../zawgyi-unicode-converter">Zawgyi Unicode Converter - Cross Platform App</a>
+            </li>
+            <li>
+                <a routerLink="../zawgyi-unicode-converter-android">Zawgyi Unicode Converter - Android App</a>
+            </li>
+            <li>
+                <a routerLink="../unicode-code-points-lookup">Unicode Code Points Lookup</a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,5 @@
+# Allow all URLs (see http://www.robotstxt.org/robotstxt.html)
+User-agent: *
+Disallow:
+
+Sitemap: https://myanmartools.org/sitemap.xml
