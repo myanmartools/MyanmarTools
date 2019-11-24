@@ -1,6 +1,7 @@
 # Myanmar Tools
 
 [![Action Status](https://github.com/myanmartools/Myanmar-Tools/workflows/Deploy/badge.svg)](https://github.com/myanmartools/Myanmar-Tools/actions)
+[![Build Status](https://dev.azure.com/myanmartools/Myanmar-Tools/_apis/build/status/myanmartools.Myanmar-Tools?branchName=master)](https://dev.azure.com/myanmartools/Myanmar-Tools/_build/latest?definitionId=9&branchName=master)
 [![Gitter](https://badges.gitter.im/myanmartools/community.svg)](https://gitter.im/myanmartools/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 This is the repository for [myanmartools.org](https://myanmartools.org) website.
