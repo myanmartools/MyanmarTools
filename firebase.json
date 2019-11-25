@@ -11,16 +11,16 @@
     ],
     "rewrites": [
       {
-        "source": "**/!(*.@(js|html|css|json|svg|png|gif|jpg|jpeg|webp|eot|otf|ttf|ttc|woff|woff2|xml|txt|ico))",
-        "destination": "/index.html"
-      },
-      {
         "source": "/links/**",
         "dynamicLinks": true
       },
       {
         "source": "/apps/**",
         "dynamicLinks": true
+      },
+      {
+        "source": "**/!(*.@(js|html|css|json|svg|png|gif|jpg|jpeg|webp|eot|otf|ttf|ttc|woff|woff2|xml|txt|ico))",
+        "destination": "/index.html"
       }
     ],
     "headers": [
