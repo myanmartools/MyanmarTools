@@ -7,9 +7,11 @@
  */
 
 import { HttpClientModule } from '@angular/common/http';
- import { NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule, BrowserTransferStateModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { CacheLocalStorageModule } from '@dagonmetric/ng-cache';
 
 import { AppComponent } from './app.component';
 import { appId, AppModule } from './app.module';
@@ -26,7 +28,8 @@ import { appId, AppModule } from './app.module';
 
         AppModule,
 
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
+        CacheLocalStorageModule
     ]
 })
 export class AppBrowserModule { }

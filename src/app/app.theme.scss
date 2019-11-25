@@ -35,6 +35,14 @@
                 }
             }
         }
+
+        .related-projects {
+            ul {
+                li + li {
+                    margin-top: 12px;
+                }
+            }
+        }
     }
 
     .site-header h1.page-title {
@@ -82,6 +90,7 @@
     }
 
     // Site footer
+    // ----------------------------------------------------------------------
     .site-footer {
         position: relative;
         width: 100%;
@@ -115,32 +124,13 @@
         overflow: hidden;
         color: inherit;
         cursor: pointer;
-    }
 
-    .site-footer .social-links .social-link-item .mat-icon {
-        margin-bottom: 6px;
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        line-height: 20px;
-        color: rgba(0, 0, 0, .67);
-        fill: rgba(0, 0, 0, .67);
-    }
-
-    .site-footer .footer-nav {
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        text-align: left;
-        font-size: 11px;
-        margin-top: 24px;
-    }
-
-    .site-footer .footer-nav a {
-        color: inherit;
-    }
-
-    .site-footer .footer-nav>*:not(:last-child) {
-        margin-right: 8px;
+        .mat-icon {
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            color: rgba(0, 0, 0, .67);
+            fill: rgba(0, 0, 0, .67);
+        }
     }
 }

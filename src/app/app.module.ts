@@ -14,6 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 
+import { CacheModule, MemoryCacheModule } from '@dagonmetric/ng-cache';
 import { ConfigModule } from '@dagonmetric/ng-config';
 import { StaticConfigLoaderModule } from '@dagonmetric/ng-config/static-loader';
 
@@ -141,6 +142,10 @@ export function baseHrefFactory(doc: Document): string | null | undefined {
         // ng-config modules
         ConfigModule.init(),
         StaticConfigLoaderModule.withSettings(appConfig),
+
+        // ng-cache modules
+        CacheModule,
+        MemoryCacheModule,
     ],
     providers: [
         {

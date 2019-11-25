@@ -12,16 +12,16 @@ export const appConfig: AppConfig = {
     socialImageUrl: 'assets/images/social-image.jpg',
     pageInfo: {
         home: {
-            title: 'Myanmar Tools - Myanmar Language, Script and Unicode Tools',
+            title: 'Myanmar Tools - Open Source Myanmar Software Tools',
             description: 'Open source projects for Myanmar specific software applications, libraries, utilities, language, script, Unicode and font tools by DagonMetric Myanmar Tools.',
-            keywords: 'myanmar tools,myanmar language,myanmar script,myanmar software applications,myanmar unicode,myanmar,unicode,open source,dagonmetric',
+            keywords: 'myanmar tools,open source,myanmar language,myanmar script,myanmar software,myanmar unicode,myanmar,unicode,dagonmetric',
             socialTitle: 'Open Source Tools for Myanmar Language, Script and Unicode',
             socialImageUrl: 'assets/images/social-image.jpg'
         },
         'zawgyi-unicode-converter': {
-            title: 'Zawgyi Unicode Converter - Intelligent Accurate Cross Platform App',
+            title: 'Zawgyi Unicode Converter - Intelligent Accurate Online / Offline Converter',
             description: 'Zawgyi Unicode Converter is a free & open source Zawgyi to Unicode or Unicode to Zawgyi cross platform online / offline Myanmar (Burmese) font converter created by DagonMetric Myanmar Tools.',
-            keywords: 'zawgyi unicode converter,zawgyi,unicode converter,zawgyi to unicode,unicode to zawgyi,zawgyi unicode,burmese font converter,myanmar tools,dagonmetric',
+            keywords: 'zawgyi unicode converter,zawgyi,unicode converter,zawgyi to unicode,unicode to zawgyi,zawgyi unicode,burmese font converter,open source,online converter,myanmar tools,dagonmetric',
             socialImageUrl: 'assets/images/zawgyi-unicode-converter.jpg'
         },
         'zawgyi-unicode-converter-android': {

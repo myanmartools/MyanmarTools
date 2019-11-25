@@ -6,10 +6,12 @@
  * found under the LICENSE file in the root directory of this source tree.
  */
 
-import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { Component, Inject, OnDestroy, OnInit, PLATFORM_ID, ViewEncapsulation } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
+import { CacheService } from '@dagonmetric/ng-cache';
 import { ConfigService } from '@dagonmetric/ng-config';
 
 import { Subject } from 'rxjs';
@@ -35,9 +37,13 @@ export class AppComponent implements OnInit, OnDestroy {
 
     private readonly _pageInfoMap: { [key: string]: PageInfo };
     private readonly _onDestroy = new Subject<void>();
+    private readonly _isBrowser: boolean;
+    private _isFirstNavigation = true;
 
     constructor(
+        @Inject(PLATFORM_ID) platformId: Object,
         private readonly _configService: ConfigService,
+        private readonly _cacheService: CacheService,
         private readonly _titleService: Title,
         private readonly _metaService: Meta,
         private readonly _linkService: LinkService,
@@ -45,6 +51,7 @@ export class AppComponent implements OnInit, OnDestroy {
         private readonly _router: Router,
         private readonly _activatedRoute: ActivatedRoute) {
         this._pageInfoMap = this._configService.getValue<{ [key: string]: PageInfo }>('pageInfo');
+        this._isBrowser = isPlatformBrowser(platformId);
 
         this._router.events
             .pipe(
@@ -67,6 +74,23 @@ export class AppComponent implements OnInit, OnDestroy {
                 takeUntil(this._onDestroy)
             )
             .subscribe((routeData: { pagePath?: string; pageId?: string }) => {
+                if (this._isBrowser && this._isFirstNavigation && this._cacheService.getItem<string>('appUsed') === 'true') {
+                    this._isFirstNavigation = false;
+
+                    if (routeData.pagePath === '/zawgyi-unicode-converter') {
+                        window.location.href = 'https://myanmartools.org/apps/zawgyi-unicode-converter';
+                    } else if (routeData.pagePath === '/zawgyi-unicode-converter-android') {
+                        window.location.href = 'https://play.google.com/store/apps/details?id=com.dagonmetric.zawgyiunicodeconverter';
+                    } else if (routeData.pagePath === '/unicode-code-points-lookup') {
+                        window.location.href = 'https://unicode-code-points-lookup.myanmartools.org';
+                    }
+                } else {
+                    if (this._isFirstNavigation) {
+                        this._isFirstNavigation = false;
+                    }
+                    this._cacheService.setItem('appUsed', 'true');
+                }
+
                 if (routeData.pagePath) {
                     this.updateMeta(routeData.pagePath, routeData.pageId);
                 }
