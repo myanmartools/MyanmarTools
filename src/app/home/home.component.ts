@@ -10,7 +10,7 @@
 import { Component } from '@angular/core';
 
 /**
- * App home page component.
+ * Home page component.
  */
 @Component({
     selector: 'app-home',

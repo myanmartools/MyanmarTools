@@ -2,11 +2,9 @@
     <div class="container">
         <div class="banner-container">
             <div class="site-logo">
-                <a routerLink="" class="site-logo-link"
-                    aria-label="Myanmar Tools - Myanmar Language, Script and Unicode Tools">
-                    <img src="assets/appicons/logo.png"
-                        alt="Myanmar Tools - Myanmar Language, Script and Unicode Tools" class="site-logo-img"
-                        role="presentation" aria-hidden="true" width="800" height="800">
+                <a routerLink="" class="site-logo-link" aria-label="Myanmar Tools - Open Source Myanmar Software Tools">
+                    <img src="assets/appicons/logo.png" alt="Myanmar Tools - Open Source Myanmar Software Tools"
+                        class="site-logo-img" role="presentation" aria-hidden="true">
                 </a>
             </div>
             <h1 class="page-title" *ngIf="!is404">{{pageTitle}}</h1>
@@ -28,8 +26,12 @@
                 <mat-icon svgIcon="logo-twitter"></mat-icon>
             </a>
             <a class="social-link-item" href="https://www.facebook.com/DagonMetric" target="_blank"
-                title="Follow on Facebook" rel="noopener">
+                title="Follow on Facebook" rel="noopener" *ngIf="appUsed">
                 <mat-icon svgIcon="logo-facebook"></mat-icon>
+            </a>
+            <a class="social-link-item" href="https://www.youtube.com/channel/UCbJLAOU-kG6vkBOU1TSM5Cw" target="_blank"
+                title="Subscribe on YouTub" rel="noopener" *ngIf="appUsed">
+                <mat-icon svgIcon="logo-youtube"></mat-icon>
             </a>
         </div>
     </div>

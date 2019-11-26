@@ -17,6 +17,7 @@ import { ConfigService } from '@dagonmetric/ng-config';
 import { Subject } from 'rxjs';
 import { filter, map, takeUntil } from 'rxjs/operators';
 
+import { environment } from '../environments/environment';
 import { LinkService } from '../modules/seo';
 
 import { PageInfo } from './shared/page-info';
@@ -34,6 +35,7 @@ import { UrlHelper } from './shared/url-helper';
 export class AppComponent implements OnInit, OnDestroy {
     pageTitle = '';
     is404 = false;
+    appUsed = false;
 
     private readonly _pageInfoMap: { [key: string]: PageInfo };
     private readonly _onDestroy = new Subject<void>();
@@ -52,6 +54,7 @@ export class AppComponent implements OnInit, OnDestroy {
         private readonly _activatedRoute: ActivatedRoute) {
         this._pageInfoMap = this._configService.getValue<{ [key: string]: PageInfo }>('pageInfo');
         this._isBrowser = isPlatformBrowser(platformId);
+        this.appUsed = this._cacheService.getItem<string>('appUsed') === 'true';
 
         this._router.events
             .pipe(
@@ -74,7 +77,7 @@ export class AppComponent implements OnInit, OnDestroy {
                 takeUntil(this._onDestroy)
             )
             .subscribe((routeData: { pagePath?: string; pageId?: string }) => {
-                if (this._isBrowser && this._isFirstNavigation && this._cacheService.getItem<string>('appUsed') === 'true') {
+                if (environment.production && this._isBrowser && this._isFirstNavigation && this.appUsed) {
                     this._isFirstNavigation = false;
 
                     if (routeData.pagePath === '/zawgyi-unicode-converter') {
@@ -114,7 +117,7 @@ export class AppComponent implements OnInit, OnDestroy {
             return;
         }
 
-        if (pageId === 'not-found') {
+        if (pageInfo.pageType === '404') {
             this.is404 = true;
             this._metaService.updateTag({
                 name: 'robots',

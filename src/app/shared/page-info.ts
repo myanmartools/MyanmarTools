@@ -10,6 +10,7 @@ export interface PageInfo {
     title: string;
     description: string;
     keywords: string;
+    pageType?: 'home' | '404' | string;
     socialTitle?: string;
     socialDescription?: string;
     socialImageUrl?: string;
