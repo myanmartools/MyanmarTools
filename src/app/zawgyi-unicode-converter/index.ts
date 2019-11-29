@@ -6,4 +6,4 @@
  * found under the LICENSE file in the root directory of this source tree.
  */
 
-export * from './zawgyi-unicode-converter-web.component';
+export * from './zawgyi-unicode-converter.component';

@@ -10,10 +10,10 @@
 import { Component } from '@angular/core';
 
 /**
- * Zawgyi Unicode Converter Web page component.
+ * Zawgyi Unicode Converter web page component.
  */
 @Component({
-    selector: 'app-zawgyi-unicode-converter-web',
-    templateUrl: './zawgyi-unicode-converter-web.component.html'
+    selector: 'app-zawgyi-unicode-converter',
+    templateUrl: './zawgyi-unicode-converter.component.html'
 })
-export class ZawgyiUnicodeConverterWebComponent { }
+export class ZawgyiUnicodeConverterComponent { }
