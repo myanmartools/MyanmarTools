@@ -17,6 +17,10 @@ import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import { CacheModule, MemoryCacheModule } from '@dagonmetric/ng-cache';
 import { ConfigModule } from '@dagonmetric/ng-config';
 import { StaticConfigLoaderModule } from '@dagonmetric/ng-config/static-loader';
+import { LogModule } from '@dagonmetric/ng-log';
+import { ConsoleLoggerModule } from '@dagonmetric/ng-log/console';
+
+import { environment } from '../environments/environment';
 
 import { CustomIconRegistry } from '../modules/mat-extensions';
 import { LinkService } from '../modules/seo';
@@ -145,6 +149,14 @@ export function baseHrefFactory(doc: Document): string | null | undefined {
         // ng-cache modules
         CacheModule,
         MemoryCacheModule,
+
+        // ng-log modules
+        LogModule.withConfig({
+            minLevel: environment.production ? 'warn' : 'trace'
+        }),
+        ConsoleLoggerModule.withOptions({
+            enableDebug: !environment.production
+        }),
     ],
     providers: [
         {

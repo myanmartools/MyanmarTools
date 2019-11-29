@@ -89,6 +89,26 @@
         font-weight: 500;
     }
 
+    .myanmartools-sub-title {
+        color: mat-color($primary);
+        font-weight: 500;
+    }
+
+    h2.sub-title {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .zuc-btn {
+        color: #ffffff;
+        background: #8764b8;
+    }
+
+    .ucpl-btn {
+        color: #ffffff;
+        background: #795548;
+    }
+
     // Site footer
     // ----------------------------------------------------------------------
     .site-footer {
@@ -132,15 +152,5 @@
             color: rgba(0, 0, 0, .67);
             fill: rgba(0, 0, 0, .67);
         }
-    }
-
-    .zuc-btn {
-        color: #ffffff;
-        background: #8764b8;
-    }
-
-    .ucpl-btn {
-        color: #ffffff;
-        background: #795548;
     }
 }

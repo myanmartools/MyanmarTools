@@ -7,5 +7,8 @@
  */
 
 export const environment = {
-    production: true
+    production: true,
+    gtag: {
+        measurementId: 'UA-136936085-1'
+    }
 };

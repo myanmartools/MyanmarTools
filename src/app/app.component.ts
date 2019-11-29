@@ -13,6 +13,7 @@ import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
 import { CacheService } from '@dagonmetric/ng-cache';
 import { ConfigService } from '@dagonmetric/ng-config';
+import { LogService } from '@dagonmetric/ng-log';
 
 import { Subject } from 'rxjs';
 import { filter, map, takeUntil } from 'rxjs/operators';
@@ -46,6 +47,7 @@ export class AppComponent implements OnInit, OnDestroy {
         @Inject(PLATFORM_ID) platformId: Object,
         private readonly _configService: ConfigService,
         private readonly _cacheService: CacheService,
+        private readonly _logService: LogService,
         private readonly _titleService: Title,
         private readonly _metaService: Meta,
         private readonly _linkService: LinkService,
@@ -97,6 +99,12 @@ export class AppComponent implements OnInit, OnDestroy {
                 if (routeData.pagePath) {
                     this.updateMeta(routeData.pagePath, routeData.pageId);
                 }
+
+                this._logService.trackPageView({
+                    name: this._titleService.getTitle(),
+                    uri: !this._isFirstNavigation && routeData.pagePath ? routeData.pagePath : undefined
+                });
+
             });
     }
 

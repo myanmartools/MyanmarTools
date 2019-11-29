@@ -905,6 +905,20 @@
   dependencies:
     tslib "^1.10.0"
 
+"@dagonmetric/ng-log-gtag@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log-gtag/-/ng-log-gtag-2.2.0.tgz#e32cab1df9ab987de21e4d76a949cb194baed364"
+  integrity sha512-Z3Lfeejf5N5WiSgPXrIUbcbgH722GYnwYF5G4bXr+u6jDRxgslm4Uaa2IDp/d3MOLGEWFpqkr+p8RU5tme6LmA==
+  dependencies:
+    tslib "^1.10.0"
+
+"@dagonmetric/ng-log@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log/-/ng-log-2.2.1.tgz#64bc763a2cd58975c9818f8a09145ea7054ac0b1"
+  integrity sha512-pfaxU0QY9QA1v61b+YDPOe4Vzr3BsVVvMHbUWMkSXgfBU1IAqtJ2L9v2HOnEztZuiJ5IhX9tU206SbrCjvlNKQ==
+  dependencies:
+    tslib "^1.10.0"
+
 "@ngtools/webpack@8.3.20":
   version "8.3.20"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-8.3.20.tgz#a5288171b67c96e8d3b219f5108f1d6cd962d6a3"

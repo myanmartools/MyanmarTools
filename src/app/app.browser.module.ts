@@ -12,6 +12,9 @@ import { BrowserModule, BrowserTransferStateModule } from '@angular/platform-bro
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CacheLocalStorageModule } from '@dagonmetric/ng-cache';
+import { GTagLoggerModule } from '@dagonmetric/ng-log-gtag';
+
+import { environment } from '../environments/environment';
 
 import { AppComponent } from './app.component';
 import { appId, AppModule } from './app.module';
@@ -29,7 +32,8 @@ import { appId, AppModule } from './app.module';
         AppModule,
 
         BrowserAnimationsModule,
-        CacheLocalStorageModule
+        CacheLocalStorageModule,
+        GTagLoggerModule.withOptions(environment.gtag)
     ]
 })
 export class AppBrowserModule { }
