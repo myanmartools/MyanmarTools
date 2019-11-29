@@ -28,8 +28,8 @@ import { NGTranslitComponent } from './ng-translit';
 import { NGZawgyiDetectorComponent } from './ng-zawgyi-detector';
 import { NotFoundComponent } from './not-found';
 import { UnicodeCodePointsLookupComponent } from './unicode-code-points-lookup';
+import { ZawgyiUnicodeConverterComponent } from './zawgyi-unicode-converter';
 import { ZawgyiUnicodeConverterAndroidComponent } from './zawgyi-unicode-converter-android';
-import { ZawgyiUnicodeConverterWebComponent } from './zawgyi-unicode-converter-web';
 import { ZawgyiUnicodeTranslitRulesComponent } from './zawgyi-unicode-translit-rules';
 
 import { appConfig } from './app.config';
@@ -50,7 +50,7 @@ export const appRoutes: Routes = [
     },
     {
         path: 'zawgyi-unicode-converter',
-        component: ZawgyiUnicodeConverterWebComponent,
+        component: ZawgyiUnicodeConverterComponent,
         data: {
             pageId: 'zawgyi-unicode-converter'
         }
@@ -123,12 +123,11 @@ export function baseHrefFactory(doc: Document): string | null | undefined {
 
         HomeComponent,
         NGTranslitComponent,
-        UnicodeCodePointsLookupComponent,
-        ZawgyiUnicodeConverterAndroidComponent,
-        ZawgyiUnicodeConverterWebComponent,
         NGZawgyiDetectorComponent,
         NotFoundComponent,
-        ZawgyiUnicodeConverterWebComponent,
+        UnicodeCodePointsLookupComponent,
+        ZawgyiUnicodeConverterComponent,
+        ZawgyiUnicodeConverterAndroidComponent,
         ZawgyiUnicodeTranslitRulesComponent
     ],
     imports: [
