@@ -9,6 +9,9 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [
+      {"type": 301, "source": "/unicode-code-points-lookup", "destination": "/unicode-code-point-lookup"}
+    ],
     "rewrites": [
       {
         "source": "/links/**",
@@ -37,7 +40,7 @@
         ]
       },
       {
-        "source": "**/*.+([0-9a-f]).@(css|js|woff2)",
+        "source": "**/*.+([0-9a-f]).@(css|js|eot|otf|ttf|ttc|woff|woff2)",
         "headers": [
           {"key": "Cache-Control", "value": "max-age=2592000"}
         ]
