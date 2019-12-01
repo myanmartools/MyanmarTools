@@ -10,10 +10,10 @@
 import { Component } from '@angular/core';
 
 /**
- * The Unicode Code Points Lookup page component.
+ * The Unicode Code Point Lookup page component.
  */
 @Component({
-    selector: 'app-unicode-code-points-lookup',
-    templateUrl: './unicode-code-points-lookup.component.html'
+    selector: 'app-unicode-code-point-lookup',
+    templateUrl: './unicode-code-point-lookup.component.html'
 })
-export class UnicodeCodePointsLookupComponent { }
+export class UnicodeCodePointLookupComponent { }

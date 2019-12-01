@@ -6,4 +6,4 @@
  * found under the LICENSE file in the root directory of this source tree.
  */
 
-export * from './unicode-code-points-lookup.component';
+export * from './unicode-code-point-lookup.component';

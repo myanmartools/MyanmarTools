@@ -86,8 +86,8 @@ export class AppComponent implements OnInit, OnDestroy {
                         window.location.href = 'https://myanmartools.org/apps/zawgyi-unicode-converter';
                     } else if (routeData.pagePath === '/zawgyi-unicode-converter-android') {
                         window.location.href = 'https://play.google.com/store/apps/details?id=com.dagonmetric.zawgyiunicodeconverter';
-                    } else if (routeData.pagePath === '/unicode-code-points-lookup') {
-                        window.location.href = 'https://unicode-code-points-lookup.myanmartools.org';
+                    } else if (routeData.pagePath === '/unicode-code-point-lookup') {
+                        window.location.href = 'https://unicode-code-point-lookup.myanmartools.org';
                     }
                 } else {
                     if (this._isFirstNavigation) {

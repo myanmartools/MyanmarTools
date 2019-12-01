@@ -12,11 +12,11 @@ This is the repository for [myanmartools.org](https://myanmartools.org) website.
 
 ## Projects
 
-* [Zawgyi Unicode Converter Web (Angular PWA)](https://github.com/myanmartools/zawgyi-unicode-converter-web)
+* [Zawgyi Unicode Converter (Angular PWA)](https://github.com/myanmartools/zawgyi-unicode-converter-pwa)
 
 * [Zawgyi Unicode Converter Native (Ionic Android / iOS)](https://github.com/myanmartools/zawgyi-unicode-converter-native)
 
-* [Unicode Code Points Lookup Angular PWA](https://github.com/myanmartools/unicode-code-points-lookup-angular-pwa)
+* [Unicode Code Point Lookup (Angular PWA)](https://github.com/myanmartools/unicode-code-point-lookup-pwa)
 
 * [Zawgyi and Standard Myanmar Unicode Detector for Angular](https://github.com/myanmartools/ng-zawgyi-detector)
 

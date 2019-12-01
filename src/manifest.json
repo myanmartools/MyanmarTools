@@ -11,11 +11,11 @@
   "related_applications": [],
   "prefer_related_applications": false,
   "icons": [{
-      "src": "assets/appicons/android/android-launchericon-192x192.png",
+      "src": "assets/images/appicons/v1/android/android-launchericon-192x192.png",
       "sizes": "192x192"
     },
     {
-      "src": "assets/appicons/android/android-launchericon-512x512.png",
+      "src": "assets/images/appicons/v1/android/android-launchericon-512x512.png",
       "sizes": "512x512"
     }
   ]

@@ -31,7 +31,7 @@
         ]
       },
       {
-        "source": "**/assets/appicons/logo.png",
+        "source": "**/assets/images/appicons/v1/logo.png",
         "headers": [
           {"key": "Cache-Control", "value": "max-age=2592000"}
         ]

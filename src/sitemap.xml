@@ -9,12 +9,7 @@
   <url>
     <loc>https://myanmartools.org/zawgyi-unicode-converter</loc>
     <lastmod>2019-11-26T11:07:55+00:00</lastmod>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://myanmartools.org/unicode-code-points-lookup</loc>
-    <lastmod>2019-11-26T11:07:55+00:00</lastmod>
-    <priority>0.70</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://myanmartools.org/zawgyi-unicode-converter-android</loc>
@@ -22,18 +17,23 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://myanmartools.org/unicode-code-point-lookup</loc>
+    <lastmod>2019-11-26T11:07:55+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://myanmartools.org/ng-translit</loc>
     <lastmod>2019-11-26T11:07:55+00:00</lastmod>
-    <priority>0.50</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://myanmartools.org/zawgyi-unicode-translit-rules</loc>
     <lastmod>2019-11-26T11:07:55+00:00</lastmod>
-    <priority>0.50</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://myanmartools.org/ng-zawgyi-detector</loc>
     <lastmod>2019-11-26T11:07:55+00:00</lastmod>
-    <priority>0.50</priority>
+    <priority>0.80</priority>
   </url>
 </urlset>

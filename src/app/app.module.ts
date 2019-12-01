@@ -31,12 +31,12 @@ import { HomeComponent } from './home';
 import { NGTranslitComponent } from './ng-translit';
 import { NGZawgyiDetectorComponent } from './ng-zawgyi-detector';
 import { NotFoundComponent } from './not-found';
-import { UnicodeCodePointsLookupComponent } from './unicode-code-points-lookup';
+import { UnicodeCodePointLookupComponent } from './unicode-code-point-lookup';
 import { ZawgyiUnicodeConverterComponent } from './zawgyi-unicode-converter';
 import { ZawgyiUnicodeConverterAndroidComponent } from './zawgyi-unicode-converter-android';
 import { ZawgyiUnicodeTranslitRulesComponent } from './zawgyi-unicode-translit-rules';
 
-import { appConfig } from './app.config';
+import { appSettings } from './app.settings';
 
 import { AppComponent } from './app.component';
 import { appSvgIconProviders } from './app.svg-icons';
@@ -67,10 +67,10 @@ export const appRoutes: Routes = [
         }
     },
     {
-        path: 'unicode-code-points-lookup',
-        component: UnicodeCodePointsLookupComponent,
+        path: 'unicode-code-point-lookup',
+        component: UnicodeCodePointLookupComponent,
         data: {
-            pageId: 'unicode-code-points-lookup'
+            pageId: 'unicode-code-point-lookup'
         }
     },
     {
@@ -129,7 +129,7 @@ export function baseHrefFactory(doc: Document): string | null | undefined {
         NGTranslitComponent,
         NGZawgyiDetectorComponent,
         NotFoundComponent,
-        UnicodeCodePointsLookupComponent,
+        UnicodeCodePointLookupComponent,
         ZawgyiUnicodeConverterComponent,
         ZawgyiUnicodeConverterAndroidComponent,
         ZawgyiUnicodeTranslitRulesComponent
@@ -144,7 +144,7 @@ export function baseHrefFactory(doc: Document): string | null | undefined {
 
         // ng-config modules
         ConfigModule.init(),
-        StaticConfigLoaderModule.withSettings(appConfig),
+        StaticConfigLoaderModule.withSettings(appSettings),
 
         // ng-cache modules
         CacheModule,

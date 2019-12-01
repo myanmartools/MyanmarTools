@@ -26,7 +26,7 @@ export const ROUTES = [
     '/',
     '/zawgyi-unicode-converter',
     '/zawgyi-unicode-converter-android',
-    '/unicode-code-points-lookup',
+    '/unicode-code-point-lookup',
     '/ng-translit',
     '/ng-zawgyi-detector',
     '/zawgyi-unicode-translit-rules',
