@@ -101,6 +101,7 @@ export const appRoutes: Routes = [
             pageId: 'not-found'
         }
     },
+    { path: 'unicode-code-points-lookup', redirectTo: 'unicode-code-point-lookup' },
     { path: '**', redirectTo: '404' }
 ];
 

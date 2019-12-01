@@ -10,9 +10,8 @@
 @import '~@angular/material/theming';
 @import "~@dagonmetric/app-styles-base/core";
 
+@import "app/shared/style-variables";
 @import "app/app.theme";
-
-@import "variables";
 
 $app-styles-config: app-styles-config(
     $font-family-base: $font-family-base,

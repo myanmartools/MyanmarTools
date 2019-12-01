@@ -1,0 +1,23 @@
+/**
+ * @license
+ * Copyright DagonMetric. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found under the LICENSE file in the root directory of this source tree.
+ */
+
+ $font-family-base: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif';
+ $font-size-base: 14px;
+ $line-height-base: 20px;
+ $font-weight-base: 400;
+
+ $container-max-widths: (
+   // sm: 96%, // 576px, //540px,
+   md: 96%, //80%, // 768px, // //720px,
+   lg: 77.5%, // 992px, //960px,
+   xl: 62.5% // 1200px //1140px
+ );
+
+ $default-gap-width: 24px;
+
+ $small-breakpoint-width: 720px;
