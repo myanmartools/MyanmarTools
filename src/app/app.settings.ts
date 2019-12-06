@@ -12,28 +12,28 @@ export const appSettings: AppConfig = {
     socialImageUrl: 'assets/images/social-image.jpg',
     pageInfo: {
         home: {
-            title: 'Myanmar Tools - Open Source Myanmar Software Tools',
+            title: 'Myanmar Tools',
             description: 'Open source projects for Myanmar specific software applications, libraries, utilities, language, script, Unicode and font tools by DagonMetric Myanmar Tools.',
-            keywords: 'myanmar tools,open source,myanmar language,myanmar script,myanmar software,myanmar unicode,myanmar,unicode,dagonmetric',
+            keywords: 'myanmar tools,open source myanmar tools,myanmar language,myanmar script,myanmar software,myanmar unicode,open source,myanmar,unicode,dagonmetric,zawgyi unicode converter',
             socialImageUrl: 'assets/images/social-image.jpg',
             pageType: 'home'
         },
         'zawgyi-unicode-converter': {
             title: 'Zawgyi Unicode Converter - Intelligent & Accurate Online Converter',
             description: 'Zawgyi Unicode Converter is a free & open source Zawgyi to Unicode or Unicode to Zawgyi cross platform online / offline Myanmar (Burmese) font converter created by DagonMetric Myanmar Tools.',
-            keywords: 'zawgyi unicode converter,zawgyi unicode converter online,zawgyi,unicode converter,zawgyi to unicode,unicode to zawgyi,zawgyi unicode,burmese font converter,open source,myanmar tools,dagonmetric',
+            keywords: 'zawgyi unicode converter,zawgyi unicode online converter,zawgyi converter,unicode converter,zawgyi to unicode,unicode to zawgyi,zawgyi unicode,burmese font converter,open source,myanmar tools,dagonmetric',
             socialImageUrl: 'assets/images/zawgyi-unicode-converter.jpg'
         },
         'zawgyi-unicode-converter-android': {
             title: 'Zawgyi Unicode Converter Android App - Free & Open Source App',
             description: 'Zawgyi Unicode Converter Android app / apk is a free open source Zawgyi to Unicode or Unicode to Zawgyi Myanmar (Burmese) font converter created by DagonMetric Myanmar Tools.',
-            keywords: 'zawgyi unicode converter,zawgyi unicode converter android,zawgyi,unicode converter,zawgyi to unicode,unicode to zawgyi,zawgyi unicode,burmese font converter,open source,myanmar tools,dagonmetric',
+            keywords: 'zawgyi unicode converter,zawgyi unicode converter android,zawgyi converter,unicode converter,zawgyi to unicode,unicode to zawgyi,zawgyi unicode,burmese font converter,open source,myanmar tools,dagonmetric',
             socialImageUrl: 'assets/images/zawgyi-unicode-converter-android.jpg'
         },
         'unicode-code-point-lookup': {
             title: 'Unicode Code Point Lookup - Online Unicode Converter',
             description: 'Unicode Code Point Lookup is a Unicode encode / decode converter for converting UTF-32/UTF-16/UTF-8 code point sequences to text and vice versa created by DagonMetric MyanmarTools.',
-            keywords: 'unicode code point lookup,unicode lookup,unicode codepoints,unicode converter,unicode encode decode,unicode,myanmar tools,dagonmetric',
+            keywords: 'unicode code point lookup,unicode lookup,unicode codepoints,online unicode converter,unicode converter,unicode encode decode,unicode,myanmar tools,dagonmetric',
             socialImageUrl: 'assets/images/unicode-code-point-lookup.jpg'
         },
         'ng-translit': {

@@ -91,3 +91,42 @@ $light-theme: mat-light-theme($primary, $accent);
         url(assets/fonts/notosansmyanmarui/NotoSansMyanmarUI-Regular.woff) format('woff'),
         url(assets/fonts/notosansmyanmarui/NotoSansMyanmarUI-Regular.ttf) format('truetype');
 }
+
+// Breadcrubs
+// ------------------------------------------------------------
+ol.breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 11px;
+    margin: 1rem 0 1rem 0;
+    padding: 0;
+
+    li {
+        display: flex;
+        transition-duration: 0.3s;
+        transition-property: color;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        align-items: center;
+        color: rgba(0, 0, 0, 0.54);
+    }
+
+    li + li {
+        margin-left: 8px;
+    }
+
+    li + li::before {
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: normal;
+        text-rendering: optimizeLegibility;
+        text-transform: none;
+        white-space: nowrap;
+        word-wrap: normal;
+        color: rgba(0, 0, 0, 0.54);
+        content: ">";
+        display: inline-block;
+        margin-right: 8px;
+      }
+  }
