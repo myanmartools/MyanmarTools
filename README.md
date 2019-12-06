@@ -8,7 +8,7 @@ This is the repository for [myanmartools.org](https://myanmartools.org) website.
 
 [![Myanmar Tools Website](https://myanmartools.org/assets/images/appicons/v1/android/android-launchericon-192x192.png)](https://myanmartools.org)
 
-[https://myanmartools.org](https://myanmartools.org)
+[Myanmar Tools - Home](https://myanmartools.org)
 
 ## Projects
 
