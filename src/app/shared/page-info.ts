@@ -8,6 +8,7 @@
 
 export interface PageInfo {
     title: string;
+    pageTitle?: string;
     description: string;
     keywords: string;
     pageType?: 'home' | '404' | string;

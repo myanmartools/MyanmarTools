@@ -34,7 +34,7 @@ import { UrlHelper } from './shared/url-helper';
     encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements OnInit, OnDestroy {
-    pageTitle = '';
+    title = '';
     is404 = false;
     appUsed = false;
 
@@ -146,10 +146,11 @@ export class AppComponent implements OnInit, OnDestroy {
             content: url
         });
 
-        this.pageTitle = pageInfo.title;
-        this._titleService.setTitle(this.pageTitle);
+        this.title = pageInfo.title;
+        const pageTitle = pageInfo.pageTitle || pageInfo.title;
+        this._titleService.setTitle(pageTitle);
 
-        const socialTitle = pageInfo.socialTitle ? pageInfo.socialTitle : this.pageTitle;
+        const socialTitle = pageInfo.socialTitle || pageInfo.title;
         this._metaService.updateTag({
             name: 'twitter:title',
             content: socialTitle
@@ -165,7 +166,7 @@ export class AppComponent implements OnInit, OnDestroy {
             content: metaDescription
         });
 
-        const socialDescription = pageInfo.socialDescription ? pageInfo.socialDescription : metaDescription;
+        const socialDescription = pageInfo.socialDescription || metaDescription;
         this._metaService.updateTag({
             name: 'twitter:description',
             content: socialDescription
