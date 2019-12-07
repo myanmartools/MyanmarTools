@@ -4,7 +4,7 @@
 [![Build Status](https://dev.azure.com/myanmartools/Myanmar-Tools/_apis/build/status/myanmartools.Myanmar-Tools?branchName=master)](https://dev.azure.com/myanmartools/Myanmar-Tools/_build/latest?definitionId=9&branchName=master)
 [![Gitter](https://badges.gitter.im/myanmartools/community.svg)](https://gitter.im/myanmartools/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-This is the repository for [myanmartools.org](https://myanmartools.org) website.
+This is the repository for [myanmartools.org](https://myanmartools.org) website - a collection of open source projects for Myanmar specific software applications, libraries, utilities, language, script, Unicode and font tools.
 
 [![Myanmar Tools Website](https://myanmartools.org/assets/images/appicons/v1/android/android-launchericon-192x192.png)](https://myanmartools.org)
 

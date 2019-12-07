@@ -3,37 +3,37 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://myanmartools.org/</loc>
-    <lastmod>2019-12-06T17:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T14:00:00+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://myanmartools.org/zawgyi-unicode-converter</loc>
-    <lastmod>2019-12-06T17:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T14:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://myanmartools.org/zawgyi-unicode-converter-android</loc>
-    <lastmod>2019-12-06T17:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T14:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://myanmartools.org/unicode-code-point-lookup</loc>
-    <lastmod>2019-12-06T17:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T14:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://myanmartools.org/ng-translit</loc>
-    <lastmod>2019-12-06T17:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T14:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://myanmartools.org/zawgyi-unicode-translit-rules</loc>
-    <lastmod>2019-12-06T17:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T14:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://myanmartools.org/ng-zawgyi-detector</loc>
-    <lastmod>2019-12-06T17:00:00+00:00</lastmod>
+    <lastmod>2019-12-07T14:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 </urlset>

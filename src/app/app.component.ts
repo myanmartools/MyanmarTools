@@ -100,6 +100,8 @@ export class AppComponent implements OnInit, OnDestroy {
                     this.updateMeta(routeData.pagePath, routeData.pageId);
                 }
 
+                this.resetScrollPosition();
+
                 this._logService.trackPageView({
                     name: this._titleService.getTitle(),
                     uri: !this._isFirstNavigation && routeData.pagePath ? routeData.pagePath : undefined
@@ -192,5 +194,14 @@ export class AppComponent implements OnInit, OnDestroy {
             property: 'og:image',
             content: socialImageAbsUrl
         });
+    }
+
+    private resetScrollPosition(): void {
+        if (typeof document === 'object' && document) {
+            const bodyEle = document.querySelector('body');
+            if (bodyEle) {
+                bodyEle.scrollTop = 0;
+            }
+        }
     }
 }
