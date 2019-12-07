@@ -40,6 +40,12 @@
         ]
       },
       {
+        "source": "**/assets/images/*.jpg",
+        "headers": [
+          {"key": "Cache-Control", "value": "max-age=2592000"}
+        ]
+      },
+      {
         "source": "**/*.+([0-9a-f]).@(css|js|eot|otf|ttf|ttc|woff|woff2)",
         "headers": [
           {"key": "Cache-Control", "value": "max-age=2592000"}
