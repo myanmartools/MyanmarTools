@@ -19,41 +19,41 @@ export const appSettings: AppConfig = {
             pageType: 'home'
         },
         'zawgyi-unicode-converter': {
-            title: 'Zawgyi Unicode Converter - Intelligent & Accurate',
-            pageTitle: 'Myanmar Tools - Zawgyi Unicode Converter - Intelligent Accurate Online / Offline Converter',
+            title: 'Zawgyi Unicode Converter',
+            // pageTitle: 'Myanmar Tools - Zawgyi Unicode Converter - Intelligent Accurate Online / Offline Converter',
             description: 'Zawgyi Unicode Converter is a free & open source Zawgyi to Unicode or Unicode to Zawgyi cross platform online / offline Myanmar font converter created by DagonMetric Myanmar Tools.',
             keywords: 'zawgyi unicode converter,zawgyi unicode online converter,zawgyi converter,unicode converter,zawgyi to unicode,unicode to zawgyi,zawgyi unicode,myanmar font converter,open source,myanmar tools,dagonmetric',
             socialImageUrl: 'assets/images/zawgyi-unicode-converter.jpg'
         },
         'zawgyi-unicode-converter-android': {
-            title: 'Zawgyi Unicode Converter Android App - Free & Open Source',
-            pageTitle: 'Myanmar Tools - Zawgyi Unicode Converter Android App - Free & Open Source App',
+            title: 'Zawgyi Unicode Converter Android App',
+            // pageTitle: 'Myanmar Tools - Zawgyi Unicode Converter Android App - Free & Open Source App',
             description: 'Zawgyi Unicode Converter Android app / apk is a free open source Zawgyi to Unicode or Unicode to Zawgyi Myanmar font converter created by DagonMetric Myanmar Tools.',
             keywords: 'zawgyi unicode converter,zawgyi unicode converter android,zawgyi converter,unicode converter,zawgyi to unicode,unicode to zawgyi,zawgyi unicode,myanmar font converter,open source,myanmar tools,dagonmetric',
             socialImageUrl: 'assets/images/zawgyi-unicode-converter-android.jpg'
         },
         'unicode-code-point-lookup': {
-            title: 'Unicode Code Point Lookup - Unicode Encode / Decode',
-            pageTitle: 'Myanmar Tools - Unicode Code Point Lookup - Unicode Encode / Decode Converter',
+            title: 'Unicode Code Point Lookup',
+            // pageTitle: 'Myanmar Tools - Unicode Code Point Lookup - Unicode Encode / Decode Converter',
             description: 'Unicode Code Point Lookup is an online Unicode encode / decode converter for converting UTF-32/UTF-16/UTF-8 code point sequences to text and vice versa created by DagonMetric Myanmar Tools.',
             keywords: 'unicode code point lookup,unicode lookup,unicode codepoints,online unicode converter,unicode converter,unicode encode decode,unicode code point to text,unicode,myanmar tools,dagonmetric',
             socialImageUrl: 'assets/images/unicode-code-point-lookup.jpg'
         },
         'ng-translit': {
             title: 'ng-translit - Transliterate Service for Angular',
-            pageTitle: 'Myanmar Tools - ng-translit - Transliterate Service for Angular',
+            // pageTitle: 'Myanmar Tools - ng-translit - Transliterate Service for Angular',
             description: 'Open source transliteration service for Angular which can be used in swapping letters such as α → a, ၎ → ၎င်း or Zawgyi-One to standard Myanmar Unicode.',
             keywords: 'ng translit,transliterate service,transliteration,transliterate,angular,zawgyi,unicode,open source,myanmar tools,dagonmetric'
         },
         'ng-zawgyi-detector': {
             title: 'ng-zawgyi-detector - Zawgyi Unicode Detector for Angular',
-            pageTitle: 'Myanmar Tools - ng-zawgyi-detector - Zawgyi Unicode Detector for Angular',
+            // pageTitle: 'Myanmar Tools - ng-zawgyi-detector - Zawgyi Unicode Detector for Angular',
             description: 'Open source Zawgyi-One and standard Myanmar Unicode detector library for Angular applications.',
             keywords: 'zawgyi unicode detector,zawgyi detector,zawgyi,unicode,angular,open source,myanmartools,myanmar tools'
         },
         'zawgyi-unicode-translit-rules': {
             title: 'zawgyi-unicode-translit-rules - Zawgyi Unicode Transliterate Rules',
-            pageTitle: 'Myanmar Tools - zawgyi-unicode-translit-rules - Zawgyi Unicode Transliterate Rules',
+            // pageTitle: 'Myanmar Tools - zawgyi-unicode-translit-rules - Zawgyi Unicode Transliterate Rules',
             description: 'Open source Zawgyi Unicode transliterate / convert regular expression rules in JSON and JavaScript formats using @DagonMetric/ng-translit.',
             keywords: 'zawgyi unicode translit rules,zawgyi unicode convert rules,zawgyi unicode converter,transliterate rules,transliteration,transliterate,unicode,zawgyi,open source,myanmartools,myanmar tools'
         },
