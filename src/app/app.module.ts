@@ -137,7 +137,7 @@ export function baseHrefFactory(doc: Document): string | null | undefined {
     ],
     imports: [
         CommonModule,
-        RouterModule.forRoot(appRoutes),
+        RouterModule.forRoot(appRoutes, { scrollPositionRestoration: 'enabled' }),
 
         MatButtonModule,
         MatCardModule,

@@ -45,7 +45,7 @@
         }
     }
 
-    .site-header h1.page-title {
+    .site-header {
         color: mat-color($primary);
     }
 
@@ -83,20 +83,15 @@
         margin-top: 24px;
     }
 
-    h2.card-section-header {
-        font-size: 16px;
-        margin-top: 24px;
-        font-weight: 500;
-    }
-
-    .myanmartools-sub-title {
-        color: mat-color($primary);
-        font-weight: 500;
-    }
-
     h2.sub-title {
         font-weight: 600;
+        font-size: 18px;
+    }
+
+    h3.card-section-header {
         font-size: 16px;
+        margin-top: 36px;
+        font-weight: 600;
     }
 
     .zuc-btn {

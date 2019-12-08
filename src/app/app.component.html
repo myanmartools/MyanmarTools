@@ -3,12 +3,18 @@
         <div class="banner-container">
             <div class="site-logo">
                 <a routerLink="" class="site-logo-link" aria-label="Myanmar Tools - Open Source Myanmar Software Tools">
-                    <img src="assets/images/appicons/v1/logo.png"
+                    <img *ngIf="isHomePage; else logoSvg" src="assets/images/appicons/v1/logo.png"
                         alt="Myanmar Tools - Open Source Myanmar Software Tools" class="site-logo-img"
                         role="presentation" aria-hidden="true">
+                    <ng-template #logoSvg>
+                        <mat-icon #logoSvg class="site-logo-img" svgIcon="logo-myanmartools"></mat-icon>
+                    </ng-template>
                 </a>
             </div>
-            <h1 class="page-title" *ngIf="!is404">{{title}}</h1>
+            <div *ngIf="!is404">
+                <h1 class="page-title">{{title}}</h1>
+                <h2 class="headline" *ngIf="isHomePage">Open Source Myanmar Software Tools</h2>
+            </div>
         </div>
     </div>
 </header>

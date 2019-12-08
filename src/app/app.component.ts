@@ -36,6 +36,7 @@ import { UrlHelper } from './shared/url-helper';
 export class AppComponent implements OnInit, OnDestroy {
     title = '';
     is404 = false;
+    isHomePage = false;
     appUsed = false;
 
     private readonly _pageInfoMap: { [key: string]: PageInfo };
@@ -100,7 +101,7 @@ export class AppComponent implements OnInit, OnDestroy {
                     this.updateMeta(routeData.pagePath, routeData.pageId);
                 }
 
-                this.resetScrollPosition();
+                // this.resetScrollPosition();
 
                 this._logService.trackPageView({
                     name: this._titleService.getTitle(),
@@ -126,6 +127,8 @@ export class AppComponent implements OnInit, OnDestroy {
         if (!pageInfo) {
             return;
         }
+
+        this.isHomePage = pageInfo && pageInfo.pageType === 'home';
 
         if (pageInfo.pageType === '404') {
             this.is404 = true;
@@ -196,12 +199,11 @@ export class AppComponent implements OnInit, OnDestroy {
         });
     }
 
-    private resetScrollPosition(): void {
-        if (typeof document === 'object' && document) {
-            const bodyEle = document.querySelector('body');
-            if (bodyEle) {
-                bodyEle.scrollTop = 0;
-            }
-        }
-    }
+    // private resetScrollPosition(): void {
+    //     if (!this._isBrowser || typeof window !== 'object') {
+    //         return;
+    //     }
+
+    //     window.scrollTo(0, 0);
+    // }
 }

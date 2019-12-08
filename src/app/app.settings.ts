@@ -12,9 +12,9 @@ export const appSettings: AppConfig = {
     socialImageUrl: 'assets/images/social-image.jpg',
     pageInfo: {
         home: {
-            title: 'Myanmar Tools - Open Source Myanmar Software Tools',
-            description: 'Open source projects for Myanmar specific software applications, libraries, utilities, language, script, Unicode and font tools by DagonMetric Myanmar Tools.',
-            keywords: 'myanmar tools,open source myanmar tools,myanmar language,myanmar script,myanmar software,myanmar unicode,open source,myanmar,unicode,dagonmetric',
+            title: 'Myanmar Tools',
+            description: 'Myanmar Tools: open source projects for Myanmar specific software applications, libraries, language, script, NLP, Unicode and font tools by DagonMetric.',
+            keywords: 'myanmar tools,open source myanmar tools,myanmar language,myanmar script,myanmar software,myanmar nlp,myanmar unicode,open source,myanmar,unicode,dagonmetric',
             socialImageUrl: 'assets/images/social-image.jpg',
             pageType: 'home'
         },
