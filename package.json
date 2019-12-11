@@ -45,8 +45,8 @@
     "@dagonmetric/ng-config": "^2.2.1",
     "@dagonmetric/ng-log": "^2.2.1",
     "@dagonmetric/ng-log-gtag": "^2.2.0",
-    "@nguniversal/common": "^8.2.5",
-    "@nguniversal/module-map-ngfactory-loader": "^8.2.5",
+    "@nguniversal/common": "^8.2.6",
+    "@nguniversal/module-map-ngfactory-loader": "^8.2.6",
     "rxjs": "^6.5.3",
     "tslib": "^1.10.0",
     "zone.js": "^0.10.2"
