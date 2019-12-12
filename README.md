@@ -12,15 +12,17 @@ This is the repository for [myanmartools.org](https://myanmartools.org) website 
 
 ## Projects
 
-* [Zawgyi Unicode Converter (Angular PWA)](https://github.com/myanmartools/zawgyi-unicode-converter-pwa)
+* [zawgyi-unicode-converter-pwa](https://github.com/myanmartools/zawgyi-unicode-converter-pwa) - Zawgyi Unicode Converter (Angular PWA) is a progressive web application designed to auto detect and convert Zawgyi-One and standard Myanmar Unicode font encodings (Zawgyi to Unicode or Unicode to Zawgyi) written in Angular and Typescript.
 
-* [Zawgyi Unicode Converter Native (Ionic Android / iOS)](https://github.com/myanmartools/zawgyi-unicode-converter-native)
+* [zawgyi-unicode-converter-native](https://github.com/myanmartools/zawgyi-unicode-converter-native) - Zawgyi Unicode Converter (Angular Ionic Native - Android / iOS) is an open source Zawgyi-One and standard Myanmar Unicode converter for Android and iOS written in Angular, Typescript, Ionic Native, Ionic UI Components.
 
-* [Unicode Code Point Lookup (Angular PWA)](https://github.com/myanmartools/unicode-code-point-lookup-pwa)
+* [unicode-code-point-lookup-pwa](https://github.com/myanmartools/unicode-code-point-lookup-pwa) - Unicode Code Point Lookup (Angular PWA) is a Unicode encode / decode converter (Unicode Converter) for converting UTF-32/UTF-16/UTF-8 code point sequences to text and vice versa written in Angular and Typescript.
 
-* [Zawgyi and Standard Myanmar Unicode Detector for Angular](https://github.com/myanmartools/ng-zawgyi-detector)
+* [ng-zawgyi-detector](https://github.com/myanmartools/ng-zawgyi-detector) - Zawgyi-One and standard Myanmar Unicode detector library for Angular applications written in Angular and Typescript.
 
-* [Zawgyi Unicode Transliterate Rules](https://github.com/myanmartools/zawgyi-unicode-translit-rules)
+* [Zawgyi Unicode Transliterate Rules](https://github.com/myanmartools/zawgyi-unicode-translit-rules) - Zawgyi Unicode transliterate/convert regular expression rules in JSON and JavaScript formats using [@dagonmetric/ng-translit](https://github.com/DagonMetric/ng-translit) package.
+
+* [ng-translit](https://github.com/DagonMetric/ng-translit) - Transliterate service for Angular which can be used in swapping letters such as α → a, ၎ → ၎င်း or Zawgyi-One to standard Myanmar Unicode written in Angular and Typescript.
 
 ## Feedback and Contributing
 
