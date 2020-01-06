@@ -904,31 +904,31 @@
   resolved "https://registry.yarnpkg.com/@dagonmetric/app-styles-base/-/app-styles-base-0.1.1.tgz#a9da329de48403584df04810fa4586715709f33e"
   integrity sha512-vh4iWCYum2Anw7pYgvd8csoTLZnC4qz8kYn17JbLephdmxIVAduN5ygFqfvCumfPUO1D2yn/DSol4q75i8ibLQ==
 
-"@dagonmetric/ng-cache@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-cache/-/ng-cache-2.0.3.tgz#f5f31ed0264064036c3b582d9dd06ffeceaf56d1"
-  integrity sha512-IoOQbdOmQOrcAaln38D/ePbDkk4TPDiF7Jy8jBTQPS8Xm7agVzG8PJS2LK5NvchlavRyviz2jXGX/91eYRhE0g==
+"@dagonmetric/ng-cache@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-cache/-/ng-cache-2.0.4.tgz#c6d44666d08218a60b89a4480ee3df2adb7e0561"
+  integrity sha512-Yk3AOg1hFtwJDW4PKH6dXQ8wyqixNQGF/xTKBRsv0pUeZGXWQtwz2G0OJQ+Gcte5Zsxxt8QuKNO4sSGWslqaBw==
   dependencies:
     tslib "^1.10.0"
 
-"@dagonmetric/ng-config@^2.2.1":
+"@dagonmetric/ng-config@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-config/-/ng-config-2.2.2.tgz#e617440aae8b4b253d696d8eeca8a23da6b7c473"
+  integrity sha512-QaaXyOdruCTZW2iHQSrGILTkKcBdRUYzn38wcALMedAMN1QoHGa+sIAdw1y9svvOkonMaDvNMSCiqWAN6At41g==
+  dependencies:
+    tslib "^1.10.0"
+
+"@dagonmetric/ng-log-gtag@^2.2.1":
   version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-config/-/ng-config-2.2.1.tgz#d731bb48af08c726a0097cb192c213f2f488c35b"
-  integrity sha512-D5EHYwyAx28pTl4JnPvUmYZmk3gMap0aRXnxQYP7PB9NJABn7cCS9gLlZigT6cHzuzWr+04Y/bkKhg5yh+ePgQ==
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log-gtag/-/ng-log-gtag-2.2.1.tgz#19e98a16be737d7b6be0dda5189b971ab7660c2a"
+  integrity sha512-A4DB93VDnzQPCAi7gK/KlyFcqwEnAcUNSPJZYv/Pw3UYv6RvZYyznQn9FqeBYBgKoap2SCrUSfvfZhyg3Z+xVA==
   dependencies:
     tslib "^1.10.0"
 
-"@dagonmetric/ng-log-gtag@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log-gtag/-/ng-log-gtag-2.2.0.tgz#e32cab1df9ab987de21e4d76a949cb194baed364"
-  integrity sha512-Z3Lfeejf5N5WiSgPXrIUbcbgH722GYnwYF5G4bXr+u6jDRxgslm4Uaa2IDp/d3MOLGEWFpqkr+p8RU5tme6LmA==
-  dependencies:
-    tslib "^1.10.0"
-
-"@dagonmetric/ng-log@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log/-/ng-log-2.2.1.tgz#64bc763a2cd58975c9818f8a09145ea7054ac0b1"
-  integrity sha512-pfaxU0QY9QA1v61b+YDPOe4Vzr3BsVVvMHbUWMkSXgfBU1IAqtJ2L9v2HOnEztZuiJ5IhX9tU206SbrCjvlNKQ==
+"@dagonmetric/ng-log@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log/-/ng-log-2.2.2.tgz#d1202c074db7c938ed33c6f5732f5cba115dd791"
+  integrity sha512-8VxwZLui/UQn9xoUt3jnpYFXhcowtYJlBkWmDWsi9FWV2io1OBkowWdB5JkZWUwaJJwyi46R4LFxLjykZNVkjA==
   dependencies:
     tslib "^1.10.0"
 
