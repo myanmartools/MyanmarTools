@@ -1,4 +1,4 @@
-name: Build
+name: Main Workflow
 
 on: [push]
 
@@ -15,7 +15,7 @@ jobs:
         node-version: 12.x
     - name: npm install, build, test and lint
       run: |
-        yarn install --frozen-lockfile --non-interactive
+        yarn install --frozen-lockfile
         yarn build
         yarn test -c=ci
         yarn lint
