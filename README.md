@@ -1,7 +1,7 @@
 # Myanmar Tools
 
-[![Action Status](https://github.com/myanmartools/Myanmar-Tools/workflows/Deploy/badge.svg)](https://github.com/myanmartools/Myanmar-Tools/actions)
-[![Build Status](https://dev.azure.com/myanmartools/Myanmar-Tools/_apis/build/status/myanmartools.Myanmar-Tools?branchName=master)](https://dev.azure.com/myanmartools/Myanmar-Tools/_build/latest?definitionId=9&branchName=master)
+[![GitHub Actions Status](https://github.com/myanmartools/Myanmar-Tools/workflows/Main%20Workflow/badge.svg)](https://github.com/myanmartools/Myanmar-Tools/actions)
+[![Azure Pipelines Status](https://dev.azure.com/myanmartools/Myanmar-Tools/_apis/build/status/myanmartools.Myanmar-Tools?branchName=master)](https://dev.azure.com/myanmartools/Myanmar-Tools/_build/latest?definitionId=9&branchName=master)
 [![Gitter](https://badges.gitter.im/myanmartools/community.svg)](https://gitter.im/myanmartools/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 This is the repository for [myanmartools.org](https://myanmartools.org) website - a collection of open source projects for Myanmar specific software applications, libraries, utilities, language, script, NLP, Unicode and font tools.
@@ -20,9 +20,11 @@ This is the repository for [myanmartools.org](https://myanmartools.org) website 
 
 * [ng-zawgyi-detector](https://github.com/myanmartools/ng-zawgyi-detector) - Zawgyi-One and standard Myanmar Unicode detector library for Angular applications written in Angular and Typescript.
 
-* [Zawgyi Unicode Transliterate Rules](https://github.com/myanmartools/zawgyi-unicode-translit-rules) - Zawgyi Unicode transliterate/convert regular expression rules in JSON and JavaScript formats using [@dagonmetric/ng-translit](https://github.com/DagonMetric/ng-translit) package.
+* [Zawgyi Unicode Transliterate Rules](https://github.com/myanmartools/zawgyi-unicode-translit-rules) - Zawgyi Unicode transliterate/convert regular expression rules in JSON and JavaScript formats using [DagonMetric/ng-translit](https://github.com/DagonMetric/ng-translit) package.
 
-* [ng-translit](https://github.com/DagonMetric/ng-translit) - Transliterate service for Angular which can be used in swapping letters such as α → a, ၎ → ၎င်း or Zawgyi-One to standard Myanmar Unicode written in Angular and Typescript.
+* [myanmar-words](https://github.com/myanmartools/myanmar-words) - Myanmar (Burmese) word list (text files) by part of speech (ဝါစင်္ဂ).
+
+* [myanmar-text-fragmenter-js](https://github.com/myanmartools/myanmar-text-fragmenter-js) - Myanmar Text (Burmese language) segmentation, fragmentation and splitting JavaScript library modules for Web and Node.js applications written in Typescript.
 
 ## Feedback and Contributing
 
