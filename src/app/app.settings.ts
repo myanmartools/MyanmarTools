@@ -58,6 +58,18 @@ export const appSettings: AppConfig = {
             description: 'Open source Zawgyi Unicode transliterate / convert regular expression rules in JSON and JavaScript formats using @DagonMetric/ng-translit.',
             keywords: 'zawgyi unicode translit rules,zawgyi unicode convert rules,zawgyi unicode converter,transliterate rules,transliteration,transliterate,unicode,zawgyi,open source,myanmartools,myanmar tools'
         },
+        'myanmar-text-fragmenter-js': {
+            title: 'myanmar-text-fragmenter-js - Myanmar Text Fragmenter JavaScript',
+            pageTitle: 'Myanmar Tools - myanmar-text-fragmenter-js - Myanmar Text Fragmenter JavaScript',
+            description: 'Myanmar Text (Burmese language) segmentation, fragmentation and splitting JavaScript library modules for Web and Node.js applications written in Typescript.',
+            keywords: 'myanmar text fragmenter,myanmar text segmentation,myanmar text splitting,myanmar tools'
+        },
+        'myanmar-words': {
+            title: 'myanmar-words - Myanmar Words',
+            pageTitle: 'Myanmar Tools - myanmar-words - Myanmar Words',
+            description: 'Myanmar (Burmese) word list (text files) by part of speech (ဝါစင်္ဂ).',
+            keywords: 'myanmar words,burmese words,myanmar tools'
+        },
         'not-found': {
             title: 'Page Not Found',
             description: '',
