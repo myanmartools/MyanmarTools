@@ -22,9 +22,9 @@ This is the repository for [myanmartools.org](https://myanmartools.org) website 
 
 * [Zawgyi Unicode Transliterate Rules](https://github.com/myanmartools/zawgyi-unicode-translit-rules) - Zawgyi Unicode transliterate/convert regular expression rules in JSON and JavaScript formats using [DagonMetric/ng-translit](https://github.com/DagonMetric/ng-translit) package.
 
-* [myanmar-words](https://github.com/myanmartools/myanmar-words) - Myanmar (Burmese) word list (text files) by part of speech (ဝါစင်္ဂ).
-
 * [myanmar-text-fragmenter-js](https://github.com/myanmartools/myanmar-text-fragmenter-js) - Myanmar Text (Burmese language) segmentation, fragmentation and splitting JavaScript library modules for Web and Node.js applications written in Typescript.
+
+* [myanmar-words](https://github.com/myanmartools/myanmar-words) - Myanmar (Burmese) word list (text files) by part of speech (ဝါစင်္ဂ).
 
 ## Feedback and Contributing
 
