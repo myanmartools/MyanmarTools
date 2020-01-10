@@ -3,8 +3,8 @@
     "target": "es2015",
     "module": "esnext",
     "moduleResolution": "node",
+
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
 
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
@@ -16,9 +16,7 @@
     "stripInternal": true,
     "strictPropertyInitialization": true,
 
-    "downlevelIteration": true,
     "sourceMap": true,
-    "declaration": false,
     "importHelpers": true,
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
@@ -26,7 +24,7 @@
 
     "baseUrl": ".",
     "rootDir": ".",
-    "outDir": "./out-tsc",
+    "outDir": "./dist/out-tsc",
 
     "plugins": [
       {
