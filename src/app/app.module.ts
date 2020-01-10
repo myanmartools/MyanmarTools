@@ -143,6 +143,8 @@ export function baseHrefFactory(doc: Document): string | null | undefined {
         AppComponent,
 
         HomeComponent,
+        MyanmarTextFragmenterJsComponent,
+        MyanmarWordsComponent,
         NGTranslitComponent,
         NGZawgyiDetectorComponent,
         NotFoundComponent,
