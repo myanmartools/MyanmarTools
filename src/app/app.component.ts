@@ -45,6 +45,7 @@ export class AppComponent implements OnInit, OnDestroy {
     private _isFirstNavigation = true;
 
     constructor(
+        // tslint:disable-next-line: ban-types
         @Inject(PLATFORM_ID) platformId: Object,
         private readonly _configService: ConfigService,
         private readonly _cacheService: CacheService,

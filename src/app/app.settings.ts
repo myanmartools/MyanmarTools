@@ -11,7 +11,7 @@ import { AppConfig } from './shared/app-config';
 export const appSettings: AppConfig = {
     socialImageUrl: 'assets/images/social-image.jpg',
     pageInfo: {
-        home: {
+        'home': {
             title: 'Myanmar Tools',
             pageTitle: 'Myanmar Tools - Open Source Myanmar Software Tools',
             description: 'Myanmar Tools: open source projects for Myanmar specific software applications, libraries, language, script, NLP, Unicode and font tools by DagonMetric.',

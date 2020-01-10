@@ -50,7 +50,8 @@ interface SvgIconMap {
 export class CustomIconRegistry extends MatIconRegistry {
     private readonly _preloadedSvgElements: SvgIconMap = {};
 
-    constructor(httpClient: HttpClient,
+    constructor(
+        httpClient: HttpClient,
         sanitizer: DomSanitizer,
         @Inject(SVG_ICON) svgIcons: SvgIconInfo[],
         // tslint:disable-next-line:no-any
