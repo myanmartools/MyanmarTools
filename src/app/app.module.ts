@@ -28,6 +28,8 @@ import { LinkService } from '../modules/seo';
 import { UrlHelper } from './shared/url-helper';
 
 import { HomeComponent } from './home';
+import { MyanmarTextFragmenterJsComponent } from './myanmar-text-fragmenter-js';
+import { MyanmarWordsComponent } from './myanmar-words';
 import { NGTranslitComponent } from './ng-translit';
 import { NGZawgyiDetectorComponent } from './ng-zawgyi-detector';
 import { NotFoundComponent } from './not-found';
@@ -92,6 +94,20 @@ export const appRoutes: Routes = [
         component: ZawgyiUnicodeTranslitRulesComponent,
         data: {
             pageId: 'zawgyi-unicode-translit-rules'
+        }
+    },
+    {
+        path: 'myanmar-text-fragmenter-js',
+        component: MyanmarTextFragmenterJsComponent,
+        data: {
+            pageId: 'myanmar-text-fragmenter-js'
+        }
+    },
+    {
+        path: 'myanmar-words',
+        component: MyanmarWordsComponent,
+        data: {
+            pageId: 'myanmar-words'
         }
     },
     {
