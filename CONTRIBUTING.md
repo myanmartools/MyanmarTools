@@ -15,5 +15,3 @@ Please follow repositories' contributing guide to contribute code and content. H
 * [unicode-code-point-lookup-pwa](https://github.com/myanmartools/unicode-code-point-lookup-pwa)
 * [ng-zawgyi-detector](https://github.com/myanmartools/ng-zawgyi-detector)
 * [zawgyi-unicode-translit-rules](https://github.com/myanmartools/zawgyi-unicode-translit-rules)
-* [myanmar-words](https://github.com/myanmartools/myanmar-words)
-* [myanmar-text-fragmenter-js](https://github.com/myanmartools/myanmar-text-fragmenter-js)
