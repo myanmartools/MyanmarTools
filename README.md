@@ -1,4 +1,4 @@
-# Myanmar Tools
+# Myanmar Tools Website
 
 [![GitHub Actions Status](https://github.com/myanmartools/Myanmar-Tools/workflows/Main%20Workflow/badge.svg)](https://github.com/myanmartools/Myanmar-Tools/actions)
 [![Azure Pipelines Status](https://dev.azure.com/myanmartools/Myanmar-Tools/_apis/build/status/myanmartools.Myanmar-Tools?branchName=master)](https://dev.azure.com/myanmartools/Myanmar-Tools/_build/latest?definitionId=9&branchName=master)
@@ -22,7 +22,7 @@ This is the repository for [myanmartools.org](https://myanmartools.org) website 
 
 * [Zawgyi Unicode Transliterate Rules](https://github.com/myanmartools/zawgyi-unicode-translit-rules) - Zawgyi Unicode transliterate/convert regular expression rules in JSON and JavaScript formats using [DagonMetric/ng-translit](https://github.com/DagonMetric/ng-translit) package.
 
-* [myanmar-text-fragmenter-js](https://github.com/myanmartools/myanmar-text-fragmenter-js) - Myanmar Text (Burmese language) segmentation, fragmentation and splitting JavaScript library modules for Web and Node.js applications written in Typescript.
+* [myanmar-text-extractor-js](https://github.com/myanmartools/myanmar-text-extractor-js) - Myanmar Text (Burmese language) segmentation, fragmentation and splitting JavaScript library modules for Web and Node.js applications written in Typescript.
 
 * [myanmar-words](https://github.com/myanmartools/myanmar-words) - Myanmar (Burmese) word list (text files) by part of speech (ဝါစင်္ဂ).
 
