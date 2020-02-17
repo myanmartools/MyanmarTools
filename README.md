@@ -1,7 +1,6 @@
 # Myanmar Tools Website
 
-[![GitHub Actions Status](https://github.com/myanmartools/Myanmar-Tools/workflows/Main%20Workflow/badge.svg)](https://github.com/myanmartools/Myanmar-Tools/actions)
-[![Azure Pipelines Status](https://dev.azure.com/myanmartools/Myanmar-Tools/_apis/build/status/myanmartools.Myanmar-Tools?branchName=master)](https://dev.azure.com/myanmartools/Myanmar-Tools/_build/latest?definitionId=9&branchName=master)
+[![GitHub Actions Status](https://github.com/myanmartools/Myanmar-Tools-Website/workflows/Main%20Workflow/badge.svg)](https://github.com/myanmartools/Myanmar-Tools-Website/actions)
 [![Gitter](https://badges.gitter.im/myanmartools/community.svg)](https://gitter.im/myanmartools/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 This is the repository for [myanmartools.org](https://myanmartools.org) website - a collection of open source projects for Myanmar specific software applications, libraries, utilities, language, script, NLP, Unicode and font tools.
@@ -22,14 +21,6 @@ This is the repository for [myanmartools.org](https://myanmartools.org) website 
 
 * [Zawgyi Unicode Transliterate Rules](https://github.com/myanmartools/zawgyi-unicode-translit-rules) - Zawgyi Unicode transliterate/convert regular expression rules in JSON and JavaScript formats using [DagonMetric/ng-translit](https://github.com/DagonMetric/ng-translit) package.
 
-* [myanmar-text-extractor-js](https://github.com/myanmartools/myanmar-text-extractor-js) - Myanmar Text (Burmese language) segmentation, fragmentation and splitting JavaScript library modules for Web and Node.js applications written in Typescript.
-
-* [myanmar-words](https://github.com/myanmartools/myanmar-words) - Myanmar (Burmese) word list (text files) by part of speech (ဝါစင်္ဂ).
-
 ## Feedback and Contributing
 
-Check out the [Contributing](https://github.com/myanmartools/Myanmar-Tools/blob/master/CONTRIBUTING.md) page to see the best places to log issues and start discussions.
-
-## License
-
-This repository is licensed with the [MIT](https://github.com/myanmartools/Myanmar-Tools/blob/master/LICENSE) license.
+Check out the [Contributing](https://github.com/myanmartools/Myanmar-Tools-Website/blob/master/CONTRIBUTING.md) page to see the best places to log issues and start discussions.
