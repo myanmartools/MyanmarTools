@@ -3,14 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "author": "DagonMetric",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/myanmartools/Myanmar-Tools.git"
-  },
-  "bugs": {
-    "url": "https://github.com/myanmartools/Myanmar-Tools/issues"
-  },
   "homepage": "https://myanmartools.org",
   "scripts": {
     "ng": "ng",
