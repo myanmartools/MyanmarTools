@@ -40,7 +40,7 @@
     "@nguniversal/common": "^9.1.0",
     "@nguniversal/module-map-ngfactory-loader": "^8.2.6",
     "rxjs": "^6.5.5",
-    "tslib": "^1.11.1",
+    "tslib": "^1.11.2",
     "zone.js": "^0.10.3"
   },
   "devDependencies": {
