@@ -1088,10 +1088,10 @@
     tree-kill "1.2.2"
     webpack-sources "1.4.3"
 
-"@nguniversal/common@^9.1.0":
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-9.1.0.tgz#01ac2d2c47c6d04f955f1713697377afcaa1ad91"
-  integrity sha512-Pvb3KhuV44PxLmVOf1dqnuckdaNdfT5tbiUu2/vVbdtyFdQpF40D1Zx4RumRymK0ZzTJGQsJtJSi2DJvvGgwMg==
+"@nguniversal/common@^9.1.1":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-9.1.1.tgz#d745856e680ebce0da460edbafe0b11e305785a2"
+  integrity sha512-stYQzea9jhbs8XJDZEGcdHRVBrUp4wE3KMVufQNnQMbW/R+JpakGP6XBfPY3NLmqs/xJpVUIcIl3/6l5XxpR5A==
 
 "@nguniversal/module-map-ngfactory-loader@^8.2.6":
   version "8.2.6"
