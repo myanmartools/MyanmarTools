@@ -1065,10 +1065,10 @@
   dependencies:
     tslib "^1.10.0"
 
-"@dagonmetric/ng-log@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log/-/ng-log-2.2.2.tgz#d1202c074db7c938ed33c6f5732f5cba115dd791"
-  integrity sha512-8VxwZLui/UQn9xoUt3jnpYFXhcowtYJlBkWmDWsi9FWV2io1OBkowWdB5JkZWUwaJJwyi46R4LFxLjykZNVkjA==
+"@dagonmetric/ng-log@^2.2.4":
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log/-/ng-log-2.2.4.tgz#f1f6903989ad78aab7aff5f4e2a49158770865b7"
+  integrity sha512-Cs+91/rKsTkYIc8hF7K4RHaT42Ffmw4gzvbPl//+MEdIcm4/aP6cs8A+Hs2nqWZvBb34jS2TCFvbmWtKww8uCA==
   dependencies:
     tslib "^1.10.0"
 
