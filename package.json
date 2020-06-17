@@ -36,7 +36,7 @@
     "@dagonmetric/ng-cache": "^2.0.4",
     "@dagonmetric/ng-config": "^2.2.2",
     "@dagonmetric/ng-log": "^2.2.4",
-    "@dagonmetric/ng-log-gtag": "^2.2.1",
+    "@dagonmetric/ng-log-gtag": "^2.2.3",
     "@nguniversal/common": "^9.1.1",
     "@nguniversal/module-map-ngfactory-loader": "^8.2.6",
     "rxjs": "^6.5.5",
