@@ -1044,10 +1044,10 @@
   resolved "https://registry.yarnpkg.com/@dagonmetric/app-styles-base/-/app-styles-base-0.1.1.tgz#a9da329de48403584df04810fa4586715709f33e"
   integrity sha512-vh4iWCYum2Anw7pYgvd8csoTLZnC4qz8kYn17JbLephdmxIVAduN5ygFqfvCumfPUO1D2yn/DSol4q75i8ibLQ==
 
-"@dagonmetric/ng-cache@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-cache/-/ng-cache-2.0.4.tgz#c6d44666d08218a60b89a4480ee3df2adb7e0561"
-  integrity sha512-Yk3AOg1hFtwJDW4PKH6dXQ8wyqixNQGF/xTKBRsv0pUeZGXWQtwz2G0OJQ+Gcte5Zsxxt8QuKNO4sSGWslqaBw==
+"@dagonmetric/ng-cache@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-cache/-/ng-cache-2.0.5.tgz#e1e0a05ba46abb9a27ece2cd675ee37e839d9286"
+  integrity sha512-pQ31q047t8ck2KtS5vEl4XAzKwPnGZHYxMLCGBduO/hnsk1Fzcd2qlAnAhbJywJQ+Cv6LuCxrler3mOycHYsCQ==
   dependencies:
     tslib "^1.10.0"
 

@@ -33,7 +33,7 @@
     "@angular/platform-server": "^8.2.14",
     "@angular/router": "^8.2.14",
     "@dagonmetric/app-styles-base": "^0.1.1",
-    "@dagonmetric/ng-cache": "^2.0.4",
+    "@dagonmetric/ng-cache": "^2.0.5",
     "@dagonmetric/ng-config": "^2.2.2",
     "@dagonmetric/ng-log": "^2.2.5",
     "@dagonmetric/ng-log-gtag": "^2.2.4",
