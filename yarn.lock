@@ -1044,12 +1044,12 @@
   resolved "https://registry.yarnpkg.com/@dagonmetric/app-styles-base/-/app-styles-base-0.1.1.tgz#a9da329de48403584df04810fa4586715709f33e"
   integrity sha512-vh4iWCYum2Anw7pYgvd8csoTLZnC4qz8kYn17JbLephdmxIVAduN5ygFqfvCumfPUO1D2yn/DSol4q75i8ibLQ==
 
-"@dagonmetric/ng-cache@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-cache/-/ng-cache-2.0.5.tgz#e1e0a05ba46abb9a27ece2cd675ee37e839d9286"
-  integrity sha512-pQ31q047t8ck2KtS5vEl4XAzKwPnGZHYxMLCGBduO/hnsk1Fzcd2qlAnAhbJywJQ+Cv6LuCxrler3mOycHYsCQ==
+"@dagonmetric/ng-cache@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-cache/-/ng-cache-2.0.6.tgz#1b4b05ff0a6eaca8234810b124e81da6bb654bdf"
+  integrity sha512-ZlJ3gaU17EFKKSCSrmkciJfza8GFoLHTHiRIXF/5KD+zcF585J9rQLBd/Dzq6rA8O9Z6/I5yQteUJ3PMkyZQdQ==
   dependencies:
-    tslib "^1.10.0"
+    tslib "^2.0.0"
 
 "@dagonmetric/ng-config@^2.2.2":
   version "2.2.2"
@@ -1058,19 +1058,19 @@
   dependencies:
     tslib "^1.10.0"
 
-"@dagonmetric/ng-log-gtag@^2.2.4":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log-gtag/-/ng-log-gtag-2.2.4.tgz#c55a7f00feb26bb9423ef6a8350684a00ff88c46"
-  integrity sha512-RgVvJL57YVKro2Iy2flPtt2GiUPcueqMwn529dISqWzaneoSAL2jS22HDstACEZm7QFY/41N/G8nNyhc8TW3yA==
-  dependencies:
-    tslib "^1.10.0"
-
-"@dagonmetric/ng-log@^2.2.5":
+"@dagonmetric/ng-log-gtag@^2.2.5":
   version "2.2.5"
-  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log/-/ng-log-2.2.5.tgz#c49b5260d4786387ee6fb6a34dc96beb56eacf2d"
-  integrity sha512-7DjjmFYnGi4CyHuS7QX3hIPOu1wE5DaMm9xhHJe572zOBYEPRPKfJ19tO1d4PTlyWgosEKmEpwcywnxxxPQbiA==
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log-gtag/-/ng-log-gtag-2.2.5.tgz#7dad72c83dead43ab75d397bd5e44db8ff749b6d"
+  integrity sha512-sMWfKM4paUsATOmSDJXe9rS1fadcDDha6i/Pp1KvfkIAaBmDdmnkIuFVr8TnkEihq7qoeifujzJEQFWbjjXiYQ==
   dependencies:
-    tslib "^1.10.0"
+    tslib "^2.0.0"
+
+"@dagonmetric/ng-log@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log/-/ng-log-2.2.6.tgz#652f0cdfec64354267279934150447a80269c747"
+  integrity sha512-ccgj3Ce+uh6xFrSp0FyhUF36h9svHKVXOj/fwrrIo/e515OPyu8yB9zgRujNQg+LtjbtkxiSfI7ZUfAldSUmqQ==
+  dependencies:
+    tslib "^2.0.0"
 
 "@istanbuljs/schema@^0.1.2":
   version "0.1.2"
