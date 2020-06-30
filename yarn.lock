@@ -1088,10 +1088,10 @@
     tree-kill "1.2.2"
     webpack-sources "1.4.3"
 
-"@nguniversal/common@^10.0.0":
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-10.0.0.tgz#a920a0abfe2efad2a8958f4901401ce000e1c2e9"
-  integrity sha512-Tfk3rXR+vRbSrnTLhdOHjnbUOFuA3m8Sy/YL9aAmvOZDJblZojEnRyAcmZmTaXiSSgZL88PeJOkncdjqntaqGw==
+"@nguniversal/common@^10.0.1":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-10.0.1.tgz#964b8cc7745db8f6c3c9f39bbaee401c6354fa4b"
+  integrity sha512-don1zW+ZOBQS1PTLg006L+Uqwk9fIVnq595196XpVFn/7x5h5vCQRElZsu9LdzwFPu5b1Mjz1/3X/D4Q4SFewg==
   dependencies:
     tslib "^2.0.0"
 
