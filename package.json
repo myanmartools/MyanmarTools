@@ -41,7 +41,7 @@
     "@nguniversal/module-map-ngfactory-loader": "^8.2.6",
     "rxjs": "^6.6.3",
     "tslib": "^2.0.3",
-    "zone.js": "^0.11.1"
+    "zone.js": "^0.11.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.803.24",
