@@ -1054,10 +1054,10 @@
   resolved "https://registry.yarnpkg.com/@dagonmetric/app-styles-base/-/app-styles-base-0.1.1.tgz#a9da329de48403584df04810fa4586715709f33e"
   integrity sha512-vh4iWCYum2Anw7pYgvd8csoTLZnC4qz8kYn17JbLephdmxIVAduN5ygFqfvCumfPUO1D2yn/DSol4q75i8ibLQ==
 
-"@dagonmetric/ng-cache@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-cache/-/ng-cache-2.1.1.tgz#6e42f4416edaf3b2d8f798765c0cece0ae12707f"
-  integrity sha512-r9iEAESlqWgeeweprGPHX34Q4sM/WL9dvp4NhMnSTaYWnIBePof7CGvTFRZL80xuJIgdMY9J3SppL5iPbQDK3Q==
+"@dagonmetric/ng-cache@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-cache/-/ng-cache-2.1.2.tgz#8143c859dd6861cc75aa49b3c4b6282bb6af810b"
+  integrity sha512-t6Zy08TpofcOLsbZjoEx03pXUcsxDUurZWpTJ52y8RCQFjTLW1XpZY1XJ+GMf0xQM3aadP7wKiMM7P3IUbkh9A==
   dependencies:
     tslib "^2.0.0"
 
@@ -1068,17 +1068,17 @@
   dependencies:
     tslib "^1.10.0"
 
-"@dagonmetric/ng-log-gtag@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log-gtag/-/ng-log-gtag-2.3.1.tgz#127ad3a37bb2639734839071738fff30beab5963"
-  integrity sha512-fMp5L4wZet5AnvFWgu4aEdJvVpD2W0+iqLW4JtwrAj8CBNrlaaVshd0XLl+jxYnv61fsIBi7klwXZuKtmjdQsA==
+"@dagonmetric/ng-log-gtag@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log-gtag/-/ng-log-gtag-2.3.2.tgz#041a17168275b7bd9524be47c1be03a9390fac4d"
+  integrity sha512-4bGP0ajHl2h1LysInK8DWru9dKXu9SL/27US6E2hLWnpPmhsYo58EQBASMPOG+Syl+JQatYtDKlhTJpfqVh+jg==
   dependencies:
     tslib "^2.0.0"
 
-"@dagonmetric/ng-log@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log/-/ng-log-2.3.2.tgz#82634f87c8fcbd603b2bc7c925d99fd8a56d6d68"
-  integrity sha512-nP/2uDHOKjqholX5s3S19HQIzq518j5IJJg1Brv25rlhpT1fHTaFLjLQFzLOjLvcOGKGZs6E1zspcqHUxlSHjQ==
+"@dagonmetric/ng-log@^2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@dagonmetric/ng-log/-/ng-log-2.3.3.tgz#234d919499fe4b39d67979beb76b4514d473edee"
+  integrity sha512-6DlOWPSz+7pyNqIYV97s63ePVx48Jnbgt+XwQppPivrhOIBODVc3EQnZCqDAGq+hOfdANX9UzstfbS6pAxw8kg==
   dependencies:
     tslib "^2.0.0"
 
