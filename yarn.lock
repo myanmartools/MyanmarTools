@@ -1098,10 +1098,10 @@
     tree-kill "1.2.2"
     webpack-sources "1.4.3"
 
-"@nguniversal/common@^11.1.0":
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-11.1.0.tgz#60f5f72476aef87d2c85e2c72225fef01867a49a"
-  integrity sha512-uBZvVycIZ6+Fs7O7Jk1E0R2kmQ3SeknpfemIboVj3w+vT08sWwTzhjCAYYAMUyZQLDEr+vDkRSoIgUmwoR8jsg==
+"@nguniversal/common@^11.1.1":
+  version "11.1.1"
+  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-11.1.1.tgz#b011adc6fa247f5b6bfaf56f4bb143cf5021541a"
+  integrity sha512-BBVYrMjY6Q8ykgA0jYbaTgGoW6DFwdskNTRBEPmY8KgRTxiXUqXHKnz+W/Ffd7gPMYpV2PNyI5YdXpstimDuJw==
   dependencies:
     critters "0.0.6"
     tslib "^2.0.0"
