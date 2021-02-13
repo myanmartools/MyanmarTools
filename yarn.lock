@@ -10,6 +10,14 @@
     "@angular-devkit/core" "8.3.24"
     rxjs "6.4.0"
 
+"@angular-devkit/architect@0.803.29":
+  version "0.803.29"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.803.29.tgz#0399969087ac77876b8e429cb26eebd20596607b"
+  integrity sha512-yHBud/fZHTelX24yjQg5lefZrfIebruoFTGeOwF0JdX8+KiHcTIxS4LOnUTYriasfHarcHRFXBAV/bRm+wv5ow==
+  dependencies:
+    "@angular-devkit/core" "8.3.29"
+    rxjs "6.4.0"
+
 "@angular-devkit/build-angular@^0.803.24":
   version "0.803.24"
   resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-0.803.24.tgz#03d5e30eb46a3db4856b0a845f2c2d6deba9be25"
@@ -103,12 +111,23 @@
     rxjs "6.4.0"
     source-map "0.7.3"
 
-"@angular-devkit/schematics@8.3.24":
-  version "8.3.24"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-8.3.24.tgz#583b1841d032eccf31cc86dbd15c5ac15a50cf95"
-  integrity sha512-HrwDCgw7i3GrNns0Ce5zStWkxBqlcLuDkMcLY6981jpvVzgXMIQ+YqDrJ2kD46xHh979ev7hhw1d6jwPXh85Xw==
+"@angular-devkit/core@8.3.29":
+  version "8.3.29"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-8.3.29.tgz#3477edd6458653f83e6d78684b100c1bef81382f"
+  integrity sha512-4jdja9QPwR6XG14ZSunyyOWT3nE2WtZC5IMDIBZADxujXvhzOU0n4oWpy6/JVHLUAxYNNgzLz+/LQORRWndcPg==
   dependencies:
-    "@angular-devkit/core" "8.3.24"
+    ajv "6.12.3"
+    fast-json-stable-stringify "2.0.0"
+    magic-string "0.25.3"
+    rxjs "6.4.0"
+    source-map "0.7.3"
+
+"@angular-devkit/schematics@8.3.29":
+  version "8.3.29"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-8.3.29.tgz#b3ba658b90fb3226a80ff12977be7dd583e99c49"
+  integrity sha512-AFJ9EK0XbcNlO5Dm9vr0OlBo1Nw6AaFXPR+DmHGBdcDDHxqEmYYLWfT+JU/8U2YFIdgrtlwvdtf6UQ3V2jdz1g==
+  dependencies:
+    "@angular-devkit/core" "8.3.29"
     rxjs "6.4.0"
 
 "@angular/animations@^8.2.14":
@@ -127,16 +146,16 @@
   optionalDependencies:
     parse5 "^5.0.0"
 
-"@angular/cli@^8.3.24":
-  version "8.3.24"
-  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-8.3.24.tgz#786357000450b1b1404549660b1284f364e388f7"
-  integrity sha512-cUB6H+BAISMdaFsstcyvC+17hOV3ET4MaVgcmgT2cL7A4vMBRBxJ0cW4r3D9c6e7m4wipyJzOUESYoIHu0cp4A==
+"@angular/cli@^8.3.29":
+  version "8.3.29"
+  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-8.3.29.tgz#481eb04a8240932adfb19049a5fb524f85453037"
+  integrity sha512-pW+iU0eKHIae+A1b9W5g8DKefMQcehZ+drGKs4Hryh8G+XGFS00BIWkmh6c1mydWTEhdsFlhdjD/rXCem7MAQQ==
   dependencies:
-    "@angular-devkit/architect" "0.803.24"
-    "@angular-devkit/core" "8.3.24"
-    "@angular-devkit/schematics" "8.3.24"
-    "@schematics/angular" "8.3.24"
-    "@schematics/update" "0.803.24"
+    "@angular-devkit/architect" "0.803.29"
+    "@angular-devkit/core" "8.3.29"
+    "@angular-devkit/schematics" "8.3.29"
+    "@schematics/angular" "8.3.29"
+    "@schematics/update" "0.803.29"
     "@yarnpkg/lockfile" "1.1.0"
     ansi-colors "4.1.1"
     debug "^4.1.1"
@@ -1111,21 +1130,21 @@
   resolved "https://registry.yarnpkg.com/@nguniversal/module-map-ngfactory-loader/-/module-map-ngfactory-loader-8.2.6.tgz#0edc07c4437566970392c9bca1d13b8964971cb0"
   integrity sha512-YcxXSrDZt6iDR+YbesJvprNpHd1nRLeThJwAFlcwvK/GVGSyKeWV6eqk3bRkBkgkw8OwaG/4lOQ4aofxQw+13w==
 
-"@schematics/angular@8.3.24":
-  version "8.3.24"
-  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-8.3.24.tgz#4d8bfbeed2849bed611e682f418bfcadb0c62277"
-  integrity sha512-0nf/LgMHAvhjWS97Pl3JGMqS9/4PI+C0+vJoAo6D7ax8Fb+wuY5uD6Pb7ZqaZALlEnqTgE+FBQ1K8VBVbuwKbA==
+"@schematics/angular@8.3.29":
+  version "8.3.29"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-8.3.29.tgz#da747539230dae16111c56422339c02dbb17681d"
+  integrity sha512-If+UhCsQzCgnQymiiF8dQRoic34+RgJ6rV0n4k7Tm4N2xNYJOG7ajjzKM7PIeafsF50FKnFP8dqaNGxCMyq5Ew==
   dependencies:
-    "@angular-devkit/core" "8.3.24"
-    "@angular-devkit/schematics" "8.3.24"
+    "@angular-devkit/core" "8.3.29"
+    "@angular-devkit/schematics" "8.3.29"
 
-"@schematics/update@0.803.24":
-  version "0.803.24"
-  resolved "https://registry.yarnpkg.com/@schematics/update/-/update-0.803.24.tgz#f1076b6b1e4aa997f2bbe6db392089bb467787a6"
-  integrity sha512-NvCKn3QfpRjx1EzL56q9IC9fRtDXZP4bMGs/2tj+wtdBNHgm6ZJMJ9qc4mGeztKGbDFLmnX3Xz0XawAl+KeYzQ==
+"@schematics/update@0.803.29":
+  version "0.803.29"
+  resolved "https://registry.yarnpkg.com/@schematics/update/-/update-0.803.29.tgz#ad3c9bfe8c6d877a0ea692ae4760f0d72f3e0cc9"
+  integrity sha512-Syf6h6DYeu1WU9aLihMwIgVASpcHCxUYqhZyHfQABiK8NkdlZ+KAp4cOxihsZyDqIJNLWON+0/FLPAQF3BXh5Q==
   dependencies:
-    "@angular-devkit/core" "8.3.24"
-    "@angular-devkit/schematics" "8.3.24"
+    "@angular-devkit/core" "8.3.29"
+    "@angular-devkit/schematics" "8.3.29"
     "@yarnpkg/lockfile" "1.1.0"
     ini "1.3.5"
     pacote "9.5.5"
@@ -1466,6 +1485,16 @@ ajv@6.10.2, ajv@^6.1.0, ajv@^6.10.2, ajv@^6.5.5:
   integrity sha512-TXtUUEYHuaTEbLZWIKUr5pmBuhDLy+8KYtPYdcV8qC+pOZL+NKqYwvWSRrVXHn+ZmRRAu8vJTAznH7Oag6RVRw==
   dependencies:
     fast-deep-equal "^2.0.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
+
+ajv@6.12.3:
+  version "6.12.3"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.3.tgz#18c5af38a111ddeb4f2697bd78d68abc1cabd706"
+  integrity sha512-4K0cK3L1hsqk9xIb2z9vs/XU+PGJZ9PNpJRDS9YLzmNdX6jmVPfamLvTJr0aDAusnHyCHO6MjzlkAsgtqp9teA==
+  dependencies:
+    fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
@@ -3360,6 +3389,11 @@ fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
   integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
+
+fast-deep-equal@^3.1.1:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
+  integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
 fast-json-stable-stringify@2.0.0:
   version "2.0.0"
