@@ -1117,12 +1117,12 @@
     tree-kill "1.2.2"
     webpack-sources "1.4.3"
 
-"@nguniversal/common@^11.1.2":
-  version "11.1.2"
-  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-11.1.2.tgz#8b5318122b14fde858d776da50604df8fcdae946"
-  integrity sha512-tOMYq3TEW09aXPrIFNUNdUTl338f4LwvVrFbEpUrsue2FIfibmoR0xQZ56TxfBfHH1jSkZnq4jUGy6w1cR0CeA==
+"@nguniversal/common@^11.2.0":
+  version "11.2.0"
+  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-11.2.0.tgz#9b2406746818f9ab0c08718d142a35041af763ab"
+  integrity sha512-AStKUerA7Y5R2wIXzv7/G/Vd0427HuIOYkaSCMlVkKIU78ZUs2jS2qhIb09O7WP+47hPgBxFmbf1SkEtUkLfAg==
   dependencies:
-    critters "0.0.6"
+    critters "0.0.7"
     tslib "^2.0.0"
 
 "@nguniversal/module-map-ngfactory-loader@^8.2.6":
@@ -2656,10 +2656,10 @@ create-require@^1.1.0:
   resolved "https://registry.yarnpkg.com/create-require/-/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
   integrity sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==
 
-critters@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/critters/-/critters-0.0.6.tgz#b71384113d8b5f5c82f3aeba80c122437f195d8c"
-  integrity sha512-NUB3Om7tkf+XWi9+2kJ2A3l4/tHORDI1UT+nHxUqay2B/tJvMpiXcklDDLBH3fPn9Pe23uu0we/08Ukjy4cLCQ==
+critters@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/critters/-/critters-0.0.7.tgz#548b470360f4f3c51e622de3b7aa733c8f0b17bf"
+  integrity sha512-qUF2SaAWFYjNPdCcPpu68p2DnHiosia84yx5mPTlUMQjkjChR+n6sO1/I7yn2U2qNDgSPTd2SoaTIDQcUL+EwQ==
   dependencies:
     chalk "^4.1.0"
     css "^3.0.0"
