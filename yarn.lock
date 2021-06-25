@@ -1117,14 +1117,14 @@
     tree-kill "1.2.2"
     webpack-sources "1.4.3"
 
-"@nguniversal/common@^12.0.2":
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-12.0.2.tgz#bfdcf470078b4b42b2b1453c2d3b839da2ffe1da"
-  integrity sha512-jnDcmYj0faz+Ox4LPmxGnYjKPs9tw5QJxH1o3bjLsiwtmH6OOa3PXmVXv0yzLbEi5mdzYfnsk8eLZ+qvTMhuJw==
+"@nguniversal/common@^12.1.0":
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-12.1.0.tgz#1d590e2381c31d2f4c73775119d6b90c89ebc6b0"
+  integrity sha512-3sclweTDdgrcpuvW6MJMxwsF/bnrpCIgn9BWECwefOsuBnN7OYGzqjuKPKIZQJaw+wvkGagv/GBAoq98IoCR4A==
   dependencies:
     critters "0.0.10"
     jsdom "16.6.0"
-    tslib "^2.1.0"
+    tslib "^2.3.0"
 
 "@nguniversal/module-map-ngfactory-loader@^8.2.6":
   version "8.2.6"
@@ -7841,11 +7841,6 @@ tslib@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
   integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
-
-tslib@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
-  integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
 
 tslib@^2.3.0:
   version "2.3.0"
